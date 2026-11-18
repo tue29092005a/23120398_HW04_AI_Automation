@@ -1,4 +1,4 @@
-import { test, expect, apiLogin, createUser, API } from '../fixtures/test-fixtures';
+import { test, expect, markKnownBug, apiLogin, createUser, API } from '../fixtures/test-fixtures';
 import { ForgotPasswordPage } from '../pages/ForgotPasswordPage';
 import data from '../data/fr03-forgot-password.json';
 
@@ -25,6 +25,7 @@ function buildOtp(issued: string, otp: { mode: string; value?: string }): string
 test.describe('FR-03 Forgot password – step 1 (request OTP)', () => {
   for (const tc of data.requestOtp) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ page }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const fp = new ForgotPasswordPage(page);
       await fp.goto();
 
@@ -44,6 +45,7 @@ test.describe('FR-03 Forgot password – step 1 (request OTP)', () => {
 test.describe('FR-03 Forgot password – step 2 (reset with OTP)', () => {
   for (const tc of data.resetPassword) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ page, request, user }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const fp = new ForgotPasswordPage(page);
       const newPassword = buildPassword(tc.password as PasswordSpec);
       await fp.goto();
@@ -70,6 +72,7 @@ test.describe('FR-03 Forgot password – step 2 (reset with OTP)', () => {
 
   const sweep = data.specialCharSweep;
   test(`${sweep.id} [${sweep.technique}] ${sweep.title}`, async ({ page, request }) => {
+    markKnownBug((sweep as { bugs?: string[] }).bugs);
     for (const c of sweep.chars) {
       const user = await createUser(request, `sweep`);
       const password = sweep.template.replace('{c}', c);
@@ -85,6 +88,7 @@ test.describe('FR-03 Forgot password – step 2 (reset with OTP)', () => {
 test.describe('FR-03 Forgot password – UI requirements', () => {
   for (const tc of data.uiChecks) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ page, user }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const fp = new ForgotPasswordPage(page);
       await fp.goto();
 
@@ -129,6 +133,7 @@ test.describe('FR-03 Forgot password – API level', () => {
 
   for (const tc of data.api) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ request, user }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       switch (tc.scenario) {
         case 'crossAccount': {
           const other = await createUser(request, 'victim');

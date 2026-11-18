@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { test, expect, API, createUser } from '../fixtures/test-fixtures';
+import { test, expect, markKnownBug, API, createUser } from '../fixtures/test-fixtures';
 import { AdminImportPage } from '../pages/AdminImportPage';
 import manifest from '../data/fr16-import.json';
 
@@ -18,6 +18,7 @@ function csvRows(file: string) {
 test.describe('FR-16 Admin – import products from CSV', () => {
   for (const tc of manifest.cases) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ adminPage: page, request }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const products = async (): Promise<Product[]> => (await request.get(`${API}/products`)).json();
       const before = await products();
       const maxIdBefore = Math.max(0, ...before.map((p) => p.id));
