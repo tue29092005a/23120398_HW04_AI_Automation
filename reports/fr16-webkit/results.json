@@ -1,0 +1,1190 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/fr16-",
+      "--project=webkit"
+    ],
+    "configFile": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\playwright.config.ts",
+    "rootDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "Run by": "23120398",
+      "Timestamp": "2026-11-18T03:39:09.035Z",
+      "Report": "fr16-webkit",
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr16-webkit",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:39:09.035Z",
+          "Report": "fr16-webkit",
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr16-webkit",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:39:09.035Z",
+          "Report": "fr16-webkit",
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr16-webkit",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:39:09.035Z",
+          "Report": "fr16-webkit",
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:39:09.035Z",
+          "Report": "fr16-webkit",
+          "actualWorkers": 1
+        },
+        "name": "webkit",
+        "testDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests",
+        "snapshotDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://localhost:5173",
+          "locale": "en-US",
+          "screenshot": "on",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1792,
+            "height": 1120
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/fr16-webkit",
+          "open": "never",
+          "title": "Run by: 23120398 – 2026-11-18T03:39:09.035Z"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/fr16-webkit/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "fr16-csv-import.spec.ts",
+      "file": "fr16-csv-import.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "FR-16 Admin – import products from CSV",
+          "file": "fr16-csv-import.spec.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC01 [EP] valid CSV with 2 rows imports 2 products",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1900,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:09.905Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-dceb0-h-2-rows-imports-2-products-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-f304adf4282136be4aa6",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC02 [EP] file picker only accepts .csv files",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-004: File input has no accept=\".csv\" restriction – https://github.com/NguyenSonTung16/HW02/issues/37"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-004",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8186,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:43:41",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 41,
+                          "line": 43
+                        },
+                        "snippet": " \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mmode \u001b[33m===\u001b[39m \u001b[32m'accept'\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m           \u001b[36mawait\u001b[39m expect(admin\u001b[33m.\u001b[39mfileInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'accept'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(ex\u001b[33m.\u001b[39maccept))\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m           \u001b[36mreturn\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m         }\n \u001b[90m 46 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 41,
+                            "line": 43
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n\n  41 |\n  42 |         if (tc.mode === 'accept') {\n> 43 |           await expect(admin.fileInput).toHaveAttribute('accept', new RegExp(ex.accept));\n     |                                         ^\n  44 |           return;\n  45 |         }\n  46 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:43:41"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:11.918Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-004: File input has no accept=\".csv\" restriction – https://github.com/NguyenSonTung16/HW02/issues/37"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-004",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-f934a-cker-only-accepts-csv-files-webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-f934a-cker-only-accepts-csv-files-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 41,
+                        "line": 43
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-c07614c6b3a87eda15b7",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC03 [EP] quoted field containing a comma is kept as one value (RFC 4180)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-002: CSV parser splits quoted fields on commas (RFC 4180) – https://github.com/NguyenSonTung16/HW02/issues/35"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-002",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1754,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"HW04 Gaming Laptop, 16GB RAM\",\u001b[39m\n\u001b[31m+   \"\\\"HW04 Gaming Laptop\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"HW04 Gaming Laptop, 16GB RAM\",\u001b[39m\n\u001b[31m+   \"\\\"HW04 Gaming Laptop\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:68:23",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 23,
+                          "line": 68
+                        },
+                        "snippet": " \u001b[90m 66 |\u001b[39m       \u001b[36mif\u001b[39m (ex\u001b[33m.\u001b[39mnames) {\n \u001b[90m 67 |\u001b[39m         \u001b[36mconst\u001b[39m added \u001b[33m=\u001b[39m (\u001b[36mawait\u001b[39m products())\u001b[33m.\u001b[39mfilter((p) \u001b[33m=>\u001b[39m p\u001b[33m.\u001b[39mid \u001b[33m>\u001b[39m maxIdBefore)\u001b[33m.\u001b[39mmap((p) \u001b[33m=>\u001b[39m p\u001b[33m.\u001b[39mname)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 68 |\u001b[39m         expect(added)\u001b[33m.\u001b[39mtoEqual(ex\u001b[33m.\u001b[39mnames)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 69 |\u001b[39m       }\n \u001b[90m 70 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 71 |\u001b[39m   }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 23,
+                            "line": 68
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"HW04 Gaming Laptop, 16GB RAM\",\u001b[39m\n\u001b[31m+   \"\\\"HW04 Gaming Laptop\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  66 |       if (ex.names) {\n  67 |         const added = (await products()).filter((p) => p.id > maxIdBefore).map((p) => p.name);\n> 68 |         expect(added).toEqual(ex.names);\n     |                       ^\n  69 |       }\n  70 |     });\n  71 |   }\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:68:23"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:20.149Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-002: CSV parser splits quoted fields on commas (RFC 4180) – https://github.com/NguyenSonTung16/HW02/issues/35"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-002",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-19b0b-kept-as-one-value-RFC-4180--webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-19b0b-kept-as-one-value-RFC-4180--webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 23,
+                        "line": 68
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-322116d487e6aada142d",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC04 [EP] row with empty name is rejected with an error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1679,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:21.944Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-c1bf3-e-is-rejected-with-an-error-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-fd0d520bbb3fc8fa3e42",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC05 [EP] row with price 0 is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-003",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7833,
+                      "error": {
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m68\u001b[39m\nReceived: \u001b[31m69\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m68\u001b[39m\nReceived: \u001b[31m69\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 95,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m       }\n \u001b[90m 62 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m (\u001b[36mawait\u001b[39m products())\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m { message\u001b[33m:\u001b[39m \u001b[32m'products added'\u001b[39m })\u001b[33m.\u001b[39mtoBe(\n \u001b[90m    |\u001b[39m                                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m         before\u001b[33m.\u001b[39mlength \u001b[33m+\u001b[39m ex\u001b[33m.\u001b[39minserted\u001b[33m,\u001b[39m\n \u001b[90m 65 |\u001b[39m       )\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m       \u001b[36mif\u001b[39m (ex\u001b[33m.\u001b[39mnames) {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 95,
+                            "line": 63
+                          },
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m68\u001b[39m\nReceived: \u001b[31m69\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:23.638Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-003",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-49a68-ow-with-price-0-is-rejected-webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-49a68-ow-with-price-0-is-rejected-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 95,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-41d3e05fe2cd47aaa326",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC06 [EP] one invalid row rolls back the whole file (0 inserted)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-001: CSV import is not atomic (no rollback when a row fails) – https://github.com/NguyenSonTung16/HW02/issues/34"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8729,
+                      "error": {
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m69\u001b[39m\nReceived: \u001b[31m71\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m69\u001b[39m\nReceived: \u001b[31m71\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 95,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m       }\n \u001b[90m 62 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m (\u001b[36mawait\u001b[39m products())\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m { message\u001b[33m:\u001b[39m \u001b[32m'products added'\u001b[39m })\u001b[33m.\u001b[39mtoBe(\n \u001b[90m    |\u001b[39m                                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m         before\u001b[33m.\u001b[39mlength \u001b[33m+\u001b[39m ex\u001b[33m.\u001b[39minserted\u001b[33m,\u001b[39m\n \u001b[90m 65 |\u001b[39m       )\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m       \u001b[36mif\u001b[39m (ex\u001b[33m.\u001b[39mnames) {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 95,
+                            "line": 63
+                          },
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m69\u001b[39m\nReceived: \u001b[31m71\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:31.510Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-001: CSV import is not atomic (no rollback when a row fails) – https://github.com/NguyenSonTung16/HW02/issues/34"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-b8914--the-whole-file-0-inserted--webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-b8914--the-whole-file-0-inserted--webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 95,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-408ba4bb6cd30ac609ba",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC07 [EP] import API without a token returns 401",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 498,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:40.275Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-333b4-without-a-token-returns-401-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-d5ce2b0c1e77379ac420",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC08 [EP] wrong header columns are rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1669,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:40.792Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-a900a-header-columns-are-rejected-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-6551d8f3fa91adf97174",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "BVA01 [BVA] negative price -10000 is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-003",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8852,
+                      "error": {
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m71\u001b[39m\nReceived: \u001b[31m72\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m71\u001b[39m\nReceived: \u001b[31m72\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 95,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m       }\n \u001b[90m 62 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m (\u001b[36mawait\u001b[39m products())\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m { message\u001b[33m:\u001b[39m \u001b[32m'products added'\u001b[39m })\u001b[33m.\u001b[39mtoBe(\n \u001b[90m    |\u001b[39m                                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m         before\u001b[33m.\u001b[39mlength \u001b[33m+\u001b[39m ex\u001b[33m.\u001b[39minserted\u001b[33m,\u001b[39m\n \u001b[90m 65 |\u001b[39m       )\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m       \u001b[36mif\u001b[39m (ex\u001b[33m.\u001b[39mnames) {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 95,
+                            "line": 63
+                          },
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m71\u001b[39m\nReceived: \u001b[31m72\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:42.481Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-003",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-fef27-ve-price--10000-is-rejected-webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-fef27-ve-price--10000-is-rejected-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 95,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-8b9a50ea53de77c2cbfd",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "BVA02 [BVA] price exactly 0 is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-003",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9139,
+                      "error": {
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m72\u001b[39m\nReceived: \u001b[31m73\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m72\u001b[39m\nReceived: \u001b[31m73\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 95,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m       }\n \u001b[90m 62 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m (\u001b[36mawait\u001b[39m products())\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m { message\u001b[33m:\u001b[39m \u001b[32m'products added'\u001b[39m })\u001b[33m.\u001b[39mtoBe(\n \u001b[90m    |\u001b[39m                                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m         before\u001b[33m.\u001b[39mlength \u001b[33m+\u001b[39m ex\u001b[33m.\u001b[39minserted\u001b[33m,\u001b[39m\n \u001b[90m 65 |\u001b[39m       )\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m       \u001b[36mif\u001b[39m (ex\u001b[33m.\u001b[39mnames) {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 95,
+                            "line": 63
+                          },
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m72\u001b[39m\nReceived: \u001b[31m73\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:39:51.377Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-003",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-fe2d9-price-exactly-0-is-rejected-webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-fe2d9-price-exactly-0-is-rejected-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 95,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-62d13f3d2166f8430b3a",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "BVA03 [BVA] smallest positive price 0.01 is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1891,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:40:00.567Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-5295a-tive-price-0-01-is-accepted-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-750b066fe2ce7ae53791",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC09 [EP] header-only file cannot be imported and adds nothing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1433,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:40:02.479Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-6807a-e-imported-and-adds-nothing-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-0b8bbdd66af7ab11f87a",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC10 [EP] name made only of spaces is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1778,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:40:03.929Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-ac933--only-of-spaces-is-rejected-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-f66b67014269c51adb66",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC11 [EP] import API with a non-admin user token returns 403",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR16-005: Import API accepts any logged-in user token (no admin role check) – NEW in HW04"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR16-005",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 525,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:37:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                          "column": 30,
+                          "line": 37
+                        },
+                        "snippet": " \u001b[90m 35 |\u001b[39m           data\u001b[33m:\u001b[39m { products\u001b[33m:\u001b[39m csvRows(tc\u001b[33m.\u001b[39mfile) }\u001b[33m,\u001b[39m\n \u001b[90m 36 |\u001b[39m         })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 |\u001b[39m         expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(ex\u001b[33m.\u001b[39mstatus)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 38 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 39 |\u001b[39m         \u001b[36mconst\u001b[39m admin \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mAdminImportPage\u001b[39m(page)\u001b[33m;\u001b[39m\n \u001b[90m 40 |\u001b[39m         \u001b[36mawait\u001b[39m admin\u001b[33m.\u001b[39mopen()\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                            "column": 30,
+                            "line": 37
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  35 |           data: { products: csvRows(tc.file) },\n  36 |         });\n> 37 |         expect(res.status()).toBe(ex.status);\n     |                              ^\n  38 |       } else {\n  39 |         const admin = new AdminImportPage(page);\n  40 |         await admin.open();\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:37:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:40:05.725Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR16-005: Import API accepts any logged-in user token (no admin role check) – NEW in HW04"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR16-005",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-ccbcc-dmin-user-token-returns-403-webkit\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-ccbcc-dmin-user-token-returns-403-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
+                        "column": 30,
+                        "line": 37
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-d6206a351111a92fef14",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            },
+            {
+              "title": "TC12 [EP] imported product is listed in the admin product table",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1745,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:40:06.291Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr16-webkit\\fr16-csv-import-FR-16-Admi-36561--in-the-admin-product-table-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9649a2ed990783895fde-bc97469af7fa1b309ae9",
+              "file": "fr16-csv-import.spec.ts",
+              "line": 20,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-18T03:39:09.041Z",
+    "duration": 59119.331,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

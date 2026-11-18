@@ -1,0 +1,1231 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/fr08-",
+      "--project=chromium"
+    ],
+    "configFile": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\playwright.config.ts",
+    "rootDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "Run by": "23120398",
+      "Timestamp": "2026-11-18T03:32:56.387Z",
+      "Report": "fr08-chromium",
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr08-chromium",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:32:56.387Z",
+          "Report": "fr08-chromium",
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr08-chromium",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:32:56.387Z",
+          "Report": "fr08-chromium",
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr08-chromium",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:32:56.387Z",
+          "Report": "fr08-chromium",
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:32:56.387Z",
+          "Report": "fr08-chromium",
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests",
+        "snapshotDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://localhost:5173",
+          "locale": "en-US",
+          "screenshot": "on",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/fr08-chromium",
+          "open": "never",
+          "title": "Run by: 23120398 – 2026-11-18T03:32:56.387Z"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/fr08-chromium/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "fr08-checkout.spec.ts",
+      "file": "fr08-checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "FR-08 Checkout – cart total (BVA on quantity)",
+          "file": "fr08-checkout.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "BVA01 [BVA] quantity 1 gives total 30,000,000",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1949,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:32:57.256Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-3d514-ty-1-gives-total-30-000-000-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-f17b329473dabd375ed6",
+              "file": "fr08-checkout.spec.ts",
+              "line": 14,
+              "column": 5
+            },
+            {
+              "title": "BVA02 [BVA] quantity 2 gives total 60,000,000",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2936,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:32:59.408Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-219ca-ty-2-gives-total-60-000-000-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-74530c7e7ff8b88cb595",
+              "file": "fr08-checkout.spec.ts",
+              "line": 14,
+              "column": 5
+            },
+            {
+              "title": "BVA03 [BVA] quantity 5 gives total 150,000,000",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1757,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:02.358Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-b92a8-y-5-gives-total-150-000-000-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-633ea27eb5fe2859e234",
+              "file": "fr08-checkout.spec.ts",
+              "line": 14,
+              "column": 5
+            },
+            {
+              "title": "BVA04 [BVA] quantity 99 gives total 2,970,000,000",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1757,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:04.129Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-413f8-9-gives-total-2-970-000-000-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-71750f594c009040a050",
+              "file": "fr08-checkout.spec.ts",
+              "line": 14,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "FR-08 Checkout – cart contents before checkout (HW04 additions)",
+          "file": "fr08-checkout.spec.ts",
+          "line": 27,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC08 [EP] each cart line shows price x quantity and the total sums all lines",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2701,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:05.902Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-34ccd-nd-the-total-sums-all-lines-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-a794ceb54017487e9252",
+              "file": "fr08-checkout.spec.ts",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "TC09 [EP] removing a line updates the cart total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2824,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:08.621Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-2bf5d-line-updates-the-cart-total-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-dabc8e2d98e6e298ed10",
+              "file": "fr08-checkout.spec.ts",
+              "line": 29,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "FR-08 Checkout – end-to-end flows",
+          "file": "fr08-checkout.spec.ts",
+          "line": 53,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC01 [EP] logged-in checkout: correct total, read-only total, order saved, cart cleared",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                    },
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-002, BUG-FR08-004",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 17035,
+                      "error": {
+                        "message": "Error: total must not be editable\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeEditable\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\nExpected: not editable\nReceived: editable\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - total must not be editable getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\u001b[22m\n\u001b[2m    18 × locator resolved to <input type=\"number\" value=\"42000000\" class=\"border p-2 rounded text-red-600 font-bold\"/>\u001b[22m\n\u001b[2m       - unexpected value \"editable\"\u001b[22m\n",
+                        "stack": "Error: total must not be editable\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeEditable\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\nExpected: not editable\nReceived: editable\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - total must not be editable getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\u001b[22m\n\u001b[2m    18 × locator resolved to <input type=\"number\" value=\"42000000\" class=\"border p-2 rounded text-red-600 font-bold\"/>\u001b[22m\n\u001b[2m       - unexpected value \"editable\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:69:82",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 82,
+                          "line": 69
+                        },
+                        "snippet": " \u001b[90m 67 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mtotalReadOnly) {\n \u001b[90m 68 |\u001b[39m         \u001b[90m// soft: keep going so the server-side checks below are still reported\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 69 |\u001b[39m         \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(checkout\u001b[33m.\u001b[39mtotalInput\u001b[33m,\u001b[39m \u001b[32m'total must not be editable'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeEditable()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 70 |\u001b[39m       }\n \u001b[90m 71 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mtamperTotal \u001b[33m!==\u001b[39m undefined) {\n \u001b[90m 72 |\u001b[39m         \u001b[36mawait\u001b[39m checkout\u001b[33m.\u001b[39mtotalInput\u001b[33m.\u001b[39mfill(\u001b[33mString\u001b[39m(tc\u001b[33m.\u001b[39mtamperTotal))\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 82,
+                            "line": 69
+                          },
+                          "message": "Error: total must not be editable\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeEditable\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\nExpected: not editable\nReceived: editable\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - total must not be editable getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\u001b[22m\n\u001b[2m    18 × locator resolved to <input type=\"number\" value=\"42000000\" class=\"border p-2 rounded text-red-600 font-bold\"/>\u001b[22m\n\u001b[2m       - unexpected value \"editable\"\u001b[22m\n\n\n  67 |       if (tc.expect.totalReadOnly) {\n  68 |         // soft: keep going so the server-side checks below are still reported\n> 69 |         await expect.soft(checkout.totalInput, 'total must not be editable').not.toBeEditable();\n     |                                                                                  ^\n  70 |       }\n  71 |       if (tc.tamperTotal !== undefined) {\n  72 |         await checkout.totalInput.fill(String(tc.tamperTotal));\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:69:82"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 46,
+                            "line": 91
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"soft toBeVisible\" getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\u001b[22m\n\n\n  89 |       if (tc.expect.cartCleared) {\n  90 |         await cart.open();\n> 91 |         await expect.soft(cart.emptyMessage).toBeVisible();\n     |                                              ^\n  92 |       }\n  93 |     });\n  94 |   }\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:91:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:11.460Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                        },
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-002, BUG-FR08-004",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-fbbd9-al-order-saved-cart-cleared-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-fbbd9-al-order-saved-cart-cleared-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 82,
+                        "line": 69
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-d8971517aba7fc43edb1",
+              "file": "fr08-checkout.spec.ts",
+              "line": 55,
+              "column": 5
+            },
+            {
+              "title": "TC04 [EP] editing the total on the checkout page cannot change the charged amount",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                    },
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-001, BUG-FR08-002",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1843,
+                      "error": {
+                        "message": "Error: total stored on the server\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+                        "stack": "Error: total stored on the server\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:86:71",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 71,
+                          "line": 86
+                        },
+                        "snippet": " \u001b[90m 84 |\u001b[39m         \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m (\u001b[36mawait\u001b[39m myOrders())\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 85 |\u001b[39m         \u001b[36mconst\u001b[39m [order] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m myOrders()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 86 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(order\u001b[33m.\u001b[39mtotal_amount\u001b[33m,\u001b[39m \u001b[32m'total stored on the server'\u001b[39m)\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mserverTotal)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 87 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mserverStatus) expect\u001b[33m.\u001b[39msoft(order\u001b[33m.\u001b[39mstatus)\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mserverStatus)\u001b[33m;\u001b[39m\n \u001b[90m 88 |\u001b[39m       }\n \u001b[90m 89 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mcartCleared) {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 71,
+                            "line": 86
+                          },
+                          "message": "Error: total stored on the server\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n  84 |         await expect.poll(async () => (await myOrders()).length).toBe(1);\n  85 |         const [order] = await myOrders();\n> 86 |         expect.soft(order.total_amount, 'total stored on the server').toBe(tc.expect.serverTotal);\n     |                                                                       ^\n  87 |         if (tc.expect.serverStatus) expect.soft(order.status).toBe(tc.expect.serverStatus);\n  88 |       }\n  89 |       if (tc.expect.cartCleared) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:86:71"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:28.534Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                        },
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-001, BUG-FR08-002",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-3cd28-t-change-the-charged-amount-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-3cd28-t-change-the-charged-amount-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 71,
+                        "line": 86
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-24bb0983b6b65ed8eb74",
+              "file": "fr08-checkout.spec.ts",
+              "line": 55,
+              "column": 5
+            },
+            {
+              "title": "TC07 [EP] cart is empty after a successful checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-004",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8936,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"soft toBeVisible\" getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"soft toBeVisible\" getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:91:46",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 46,
+                          "line": 91
+                        },
+                        "snippet": " \u001b[90m 89 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mcartCleared) {\n \u001b[90m 90 |\u001b[39m         \u001b[36mawait\u001b[39m cart\u001b[33m.\u001b[39mopen()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 |\u001b[39m         \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(cart\u001b[33m.\u001b[39memptyMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 92 |\u001b[39m       }\n \u001b[90m 93 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 94 |\u001b[39m   }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 46,
+                            "line": 91
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"soft toBeVisible\" getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\u001b[22m\n\n\n  89 |       if (tc.expect.cartCleared) {\n  90 |         await cart.open();\n> 91 |         await expect.soft(cart.emptyMessage).toBeVisible();\n     |                                              ^\n  92 |       }\n  93 |     });\n  94 |   }\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:91:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:30.417Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-004",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-77003-after-a-successful-checkout-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-77003-after-a-successful-checkout-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 46,
+                        "line": 91
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-9609ee06b04f1b3e4fc5",
+              "file": "fr08-checkout.spec.ts",
+              "line": 55,
+              "column": 5
+            },
+            {
+              "title": "TC10 [EP] a completed checkout appears in the user order history as pending",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3110,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:39.402Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-c2315-er-order-history-as-pending-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-390d75018ed0f3b7abca",
+              "file": "fr08-checkout.spec.ts",
+              "line": 55,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "FR-08 Checkout – access rules",
+          "file": "fr08-checkout.spec.ts",
+          "line": 97,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC02 [EP] guest opening /checkout is redirected to /login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-003: Guest can open /checkout without logging in – https://github.com/NguyenSonTung16/HW02/issues/32"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-003",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7441,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login$/\u001b[39m\nReceived string:  \u001b[31m\"http://localhost:5173/checkout\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    18 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://localhost:5173/checkout\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login$/\u001b[39m\nReceived string:  \u001b[31m\"http://localhost:5173/checkout\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    18 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://localhost:5173/checkout\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:106:28",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 28,
+                          "line": 106
+                        },
+                        "snippet": " \u001b[90m 104 |\u001b[39m         \u001b[90m// Precondition: really a guest (header offers \"Đăng nhập\").\u001b[39m\n \u001b[90m 105 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'banner'\u001b[39m)\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Đăng nhập'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/login$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mnew\u001b[39m \u001b[33mCheckoutPage\u001b[39m(page)\u001b[33m.\u001b[39mconfirmButton)\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 108 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 109 |\u001b[39m         \u001b[36mconst\u001b[39m user \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m createUser(request\u001b[33m,\u001b[39m test\u001b[33m.\u001b[39minfo()\u001b[33m.\u001b[39mproject\u001b[33m.\u001b[39mname)\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 28,
+                            "line": 106
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login$/\u001b[39m\nReceived string:  \u001b[31m\"http://localhost:5173/checkout\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    18 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://localhost:5173/checkout\"\u001b[22m\n\n\n  104 |         // Precondition: really a guest (header offers \"Đăng nhập\").\n  105 |         await expect(page.getByRole('banner').getByRole('link', { name: 'Đăng nhập' })).toBeVisible();\n> 106 |         await expect(page).toHaveURL(/\\/login$/);\n      |                            ^\n  107 |         await expect(new CheckoutPage(page).confirmButton).toHaveCount(0);\n  108 |       } else {\n  109 |         const user = await createUser(request, test.info().project.name);\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:106:28"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:42.530Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-003: Guest can open /checkout without logging in – https://github.com/NguyenSonTung16/HW02/issues/32"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-003",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-96c11-kout-is-redirected-to-login-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-96c11-kout-is-redirected-to-login-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 28,
+                        "line": 106
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-b1bb2191b821012c9842",
+              "file": "fr08-checkout.spec.ts",
+              "line": 100,
+              "column": 5
+            },
+            {
+              "title": "TC03 [EP] empty cart shows empty state and no checkout button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 779,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:49.995Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-8df22-tate-and-no-checkout-button-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-a88272c0353168b5bc4e",
+              "file": "fr08-checkout.spec.ts",
+              "line": 100,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "FR-08 Checkout – API tampering",
+          "file": "fr08-checkout.spec.ts",
+          "line": 120,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC05 [EP] API rejects or recalculates total_amount = 0",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 40,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m60000000\u001b[39m\nReceived: \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m60000000\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:139:40",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 40,
+                          "line": 139
+                        },
+                        "snippet": " \u001b[90m 137 |\u001b[39m       } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (res\u001b[33m.\u001b[39mok()) {\n \u001b[90m 138 |\u001b[39m         \u001b[90m// Accepting is fine only if the server recalculated the amount.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 139 |\u001b[39m         expect(orders[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mtotal_amount)\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpectServerTotal)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 140 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 141 |\u001b[39m         expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 142 |\u001b[39m       }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 40,
+                            "line": 139
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m60000000\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  137 |       } else if (res.ok()) {\n  138 |         // Accepting is fine only if the server recalculated the amount.\n> 139 |         expect(orders[0].total_amount).toBe(tc.expectServerTotal);\n      |                                        ^\n  140 |       } else {\n  141 |         expect(res.status()).toBe(400);\n  142 |       }\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:139:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:50.793Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-18d3b-recalculates-total-amount-0-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 40,
+                        "line": 139
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-2257360e472630adad8c",
+              "file": "fr08-checkout.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "TC06 [EP] API rejects or recalculates total_amount = -500000",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 35,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m-500000\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m-500000\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:139:40",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 40,
+                          "line": 139
+                        },
+                        "snippet": " \u001b[90m 137 |\u001b[39m       } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (res\u001b[33m.\u001b[39mok()) {\n \u001b[90m 138 |\u001b[39m         \u001b[90m// Accepting is fine only if the server recalculated the amount.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 139 |\u001b[39m         expect(orders[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mtotal_amount)\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpectServerTotal)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 140 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 141 |\u001b[39m         expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 142 |\u001b[39m       }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 40,
+                            "line": 139
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m-500000\u001b[39m\n\n  137 |       } else if (res.ok()) {\n  138 |         // Accepting is fine only if the server recalculated the amount.\n> 139 |         expect(orders[0].total_amount).toBe(tc.expectServerTotal);\n      |                                        ^\n  140 |       } else {\n  141 |         expect(res.status()).toBe(400);\n  142 |       }\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:139:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:50.848Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-8e637-ulates-total-amount--500000-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 40,
+                        "line": 139
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-087be303342b304f6256",
+              "file": "fr08-checkout.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "BVA05 [BVA] API rejects an order line with quantity 0",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR08-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 37,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:135:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                          "column": 30,
+                          "line": 135
+                        },
+                        "snippet": " \u001b[90m 133 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpectServerTotal \u001b[33m===\u001b[39m \u001b[36mnull\u001b[39m) {\n \u001b[90m 134 |\u001b[39m         \u001b[90m// Invalid order line: must be rejected and nothing stored.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m         expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m         expect(orders)\u001b[33m.\u001b[39mtoHaveLength(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m       } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (res\u001b[33m.\u001b[39mok()) {\n \u001b[90m 138 |\u001b[39m         \u001b[90m// Accepting is fine only if the server recalculated the amount.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                            "column": 30,
+                            "line": 135
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  133 |       if (tc.expectServerTotal === null) {\n  134 |         // Invalid order line: must be rejected and nothing stored.\n> 135 |         expect(res.status()).toBe(400);\n      |                              ^\n  136 |         expect(orders).toHaveLength(0);\n  137 |       } else if (res.ok()) {\n  138 |         // Accepting is fine only if the server recalculated the amount.\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:135:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:33:50.895Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR08-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr08-chromium\\fr08-checkout-FR-08-Checko-ad1d4--order-line-with-quantity-0-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts",
+                        "column": 30,
+                        "line": 135
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73e01848b7ce7ee3ad28-ec0108533a65a8ecd8bb",
+              "file": "fr08-checkout.spec.ts",
+              "line": 122,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-18T03:32:56.392Z",
+    "duration": 54737.880000000005,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

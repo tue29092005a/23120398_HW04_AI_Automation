@@ -1,0 +1,379 @@
+commit 3443472d3bd4d944b1547d94a599b98c345dd148
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:33:00 2026 +0700
+
+    feat(skill): playwright-ddt Agent Skill + evidence, issue, AI-log and PDF scripts
+
+ .claude/skills/playwright-ddt/SKILL.md |  92 ++++++++++++++++++++++++++
+ .gitignore                             |   1 +
+ AI_Critique.md                         |   9 +++
+ docs/bugs.json                         | 114 +++++++++++++++++++++++++++++++++
+ scripts/bug-evidence.mjs               |  44 +++++++++++++
+ scripts/build-bug-report.mjs           |  35 ++++++++++
+ scripts/create-issues.mjs              |  56 ++++++++++++++++
+ scripts/extract-ai-log.mjs             | 100 +++++++++++++++++++++++++++++
+ scripts/md-to-pdf.mjs                  |  37 +++++++++++
+ 9 files changed, 488 insertions(+)
+
+commit d12874537974a94f1ef287225f431a1cc600d3f8
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:28:05 2026 +0700
+
+    fix(fr08): log in through the /login form (WebKit flaked on localStorage + reload)
+    
+    loginWithToken wrote the JWT to localStorage and reloaded; on WebKit/Windows
+    the app came back as a guest in ~10% of runs (6/60 with --repeat-each=4).
+    Logging in via the real form is stable (60/60). Also marks FR-08 known bugs
+    with test.fail + issue annotation.
+
+ fixtures/test-fixtures.ts                          |   24 +-
+ tests/fr08-checkout.spec.ts                        |    9 +-
+ .../045c25c5daae18eca72b257f4f580211745e3906.png   |  Bin 0 -> 22105 bytes
+ .../05b3576bf0464c8f2f2fc8006368db906474cb7a.md    |  220 +
+ .../0686b74d42875e92c6f2d1b4d3c9d0204995259e.md    |  133 +
+ .../06987f6933d313012687544d2c70d7b4b5a99392.png   |  Bin 0 -> 22005 bytes
+ .../07ae8c639fc97e57f22d1fadf5d3f4eca6789e68.png   |  Bin 0 -> 21961 bytes
+ .../0c08d5dab39da9521bf5b0fbd9e8c09332242bf7.png   |  Bin 0 -> 17326 bytes
+ .../0ffd8e4fdf9886c5f2e2b557eb7ba6cdd0a2c7fb.png   |  Bin 0 -> 24176 bytes
+ .../11dcf8012941ac2b24fc4147570745a84d682dab.png   |  Bin 0 -> 22103 bytes
+ .../1594074bb44309009eab8bb672c9268536763bea.md    |  218 +
+ .../1d33787842ee14f52e7e647096041c87380df901.png   |  Bin 0 -> 22063 bytes
+ .../1e11bd1e9204d8407d185f4f9f637afe31e32731.png   |  Bin 0 -> 34287 bytes
+ .../20488c6d0497b8cbc9052ca483cdc25c15c40a16.md    |  233 +
+ .../24f6b66ad59d6775152c5a39af26a79fb2063eae.png   |  Bin 0 -> 22056 bytes
+ .../28ab97b1303bc69a1a4b65e84c08ebb9c7d7fd9d.png   |  Bin 0 -> 24044 bytes
+ .../2adaa02d203e67a9aa6623bfb5a4c57bd7e4f82b.png   |  Bin 0 -> 17021 bytes
+ .../2c645adc8febb06729169d0ea32d3f105bce7860.md    |  293 ++
+ .../2e19c214e02641f766404dff356206dd62e8f675.png   |  Bin 0 -> 22009 bytes
+ .../2ed1cc5c3c3800490eaa6e554a37ac40b3f1ea8c.png   |  Bin 0 -> 21944 bytes
+ .../324852ac68707af6536c9e84eeb5b32a454f36b3.md    |   98 +
+ .../34e2b8ae6ed55a175aa320527e9c71999d3ef78b.md    |  134 +
+ .../36f7a6cf0e40013f4f0df16dbda2bf68e09e1148.png   |  Bin 0 -> 35312 bytes
+ .../38b5cdb1e74e01770cd166989486e366c0ee80fd.md    |  218 +
+ .../3b4a92849c731f5cc7cdafc12a863f59ae64f96c.png   |  Bin 0 -> 34317 bytes
+ .../4291ddc9fe96747dee7378cec00653a32aaa1efa.png   |  Bin 0 -> 22082 bytes
+ .../432ee56fb185633cc8eb18ccf2b1cfc143e4ffc1.png   |  Bin 0 -> 27021 bytes
+ .../453d09b89a656050c9c1df89becfe2734f937972.png   |  Bin 0 -> 27059 bytes
+ .../498f589f8084cca3845a5ff80b30cae31a021750.png   |  Bin 0 -> 22050 bytes
+ .../4f023067dc8c01e7dc9fe4366143f1a71a6260d9.md    |  339 ++
+ .../544c34d11ccfa4051b5ed00d2496c8a0aeab2ded.md    |  344 ++
+ .../54836d08d291de307114970a39b7fd309fda7ecc.png   |  Bin 0 -> 34484 bytes
+ .../5596ddbd3e63b633d12242cc4958cddda1539345.png   |  Bin 0 -> 34208 bytes
+ .../55c6e7d8e3a48691c29911823bdcdc445e8ed9e4.md    |  310 ++
+ .../5b42e2642be695a6e632cf29a3bda8d30b5a09ac.png   |  Bin 0 -> 35715 bytes
+ .../5dadfd38eb2bb9a7471261aa5d7a1786ac950094.png   |  Bin 0 -> 34520 bytes
+ .../5de8c07634b851e8c75604551bfc818eae3a6c23.md    |  244 +
+ .../5f0f3ee73ce14e32f709dc0593f8be3006ed73d9.md    |  242 +
+ .../6b9b41446429ca2569b010766b0eb2bb7f17ffbd.png   |  Bin 0 -> 22053 bytes
+ .../6efd8d34d54197f6e278ce196262f62cd73a9914.png   |  Bin 0 -> 16672 bytes
+ .../70146e0e99662a22cba478f35237d08736ad80ea.png   |  Bin 0 -> 24159 bytes
+ .../71016278d264cdb3f2ccab2d6e68f6e00836dfaa.png   |  Bin 0 -> 22074 bytes
+ .../750b537c95ec3fc3f36ca2eecab4c6c16f1e769e.md    |  218 +
+ .../7646ff678f22a2f5e33f57bf672fc88e1ddc0d2c.png   |  Bin 0 -> 26936 bytes
+ .../77b54131dd7aa8c607889cf6ccb907516ba81413.png   |  Bin 0 -> 22002 bytes
+ .../77bdbdcec61a86ec127ec3d0442d9349d14544b2.png   |  Bin 0 -> 35716 bytes
+ .../79415e73bedd99d54d0513b040fa870b06ab1657.png   |  Bin 0 -> 21391 bytes
+ .../7aa51ee70e47a88c3b3a5880710003cfc62736f7.png   |  Bin 0 -> 17751 bytes
+ .../83aa384f042cc319a015e5eef4ef8965c79eedd7.png   |  Bin 0 -> 22163 bytes
+ .../97bc45b7e274cedcbb89cf1e804d1227f53c3a7e.png   |  Bin 0 -> 21378 bytes
+ .../9a1c575fc8641f9ce2cd845ce21361d71ead8cb9.md    |  195 +
+ .../9a9b248fbf1f1cb7e1e48eafaf21d421e2170f7b.png   |  Bin 0 -> 24673 bytes
+ .../a348d1da962cb7769e5757428d836e5aa6aca39c.png   |  Bin 0 -> 22179 bytes
+ .../a35052fd07811dadc3c8f51a6311851d54a81684.png   |  Bin 0 -> 35338 bytes
+ .../a7b93c7dd635be622dd3bc222bfb633c95abf3f7.md    |  213 +
+ .../ab51310d933aacc1731b71c757211bb1c78627ec.png   |  Bin 0 -> 21379 bytes
+ .../af50670926ad00f42ceb217a7cb0a8bc02ea0bc2.md    |  222 +
+ .../b20b074637072a6c185b395c1dec932a5f92202f.png   |  Bin 0 -> 24172 bytes
+ .../b429ec327cb0a2c45de7a7cfee4982e3ed31ae97.png   |  Bin 0 -> 15363 bytes
+ .../b7a285e784db7e5806f5f7978756151bff7d80fa.png   |  Bin 0 -> 17462 bytes
+ .../bd12ecc0666f39ef62f656f4b1042aedcb8b5b09.png   |  Bin 0 -> 35250 bytes
+ .../c4518e5cffcf475e8998b38dbf697d512656f04b.png   |  Bin 0 -> 22228 bytes
+ .../c4bdf8eb349c99fba8c59812012c35db3d32a914.md    |  218 +
+ .../c7532c62277a8b78cfd3b0402c68f64aa77d3bb6.png   |  Bin 0 -> 35170 bytes
+ .../ca649db5121fe100bd1471a4d2a5a6e814510513.md    |  218 +
+ .../ccc9fcfc61868be6939b9ea5e761257d1439b646.md    |  111 +
+ .../cd7d49a65c1c1f2859b71e7bc9e01adadd7bd2fc.md    |  198 +
+ .../d7a5eed98f52b3a8ab83bfb6cda4263aac918b89.png   |  Bin 0 -> 5212 bytes
+ .../dd410dca9a9b25684bd8d853db8ee1d451e11042.png   |  Bin 0 -> 21376 bytes
+ .../dd921ea3f3aa77becc1db84263312977f3e6cdad.png   |  Bin 0 -> 24065 bytes
+ .../deed62aff2d7bf3bb83257e8a5e4d6f397b65b23.png   |  Bin 0 -> 34490 bytes
+ .../e00c6c6f294922574f18de65b681d644df71d0d3.png   |  Bin 0 -> 19415 bytes
+ .../e18d6f880b5fa3f0cbd065fb7313b6bc9f800cbe.md    |  218 +
+ .../e5f749aa4725872bef5cc36d564741c302090a45.md    |  352 ++
+ .../ea8f797a990955a46b16b8ecf71ca7710ae5a94f.png   |  Bin 0 -> 22131 bytes
+ .../ee7779957e1e87aac53967f322e77dfcb32523ec.md    |  320 ++
+ .../ee7a16a14fb1d3333903c00c4b1e0ef7cc76b8ca.png   |  Bin 0 -> 21980 bytes
+ .../ef92f88315559389e8f73e86a8013798bbcf6843.md    |  328 ++
+ .../f02c6263ee2975fee577bb774a79b3fcc2e702d2.md    |  137 +
+ .../f203aa440217297242f5feb38a0ada3634fbb219.md    |  133 +
+ .../f2a7da0463e61030d2b68d7b086c51d61a673398.png   |  Bin 0 -> 22050 bytes
+ .../f6e298771cee65d63eca09c91c8d56ad24e75890.png   |  Bin 0 -> 22029 bytes
+ .../f81011978dbc4be62a1ef9a3a22ad6bfdf8c676a.md    |  218 +
+ .../f9358e4fef13cf6cb516e34cd3791a81f25555ba.md    |  227 +
+ tmp-reports/firefox/index.html                     |   49 +
+ tmp-reports/firefox/results.json                   | 4682 ++++++++++++++++++++
+ .../000b6727447a7764468aa4c8d191d32d2d4d0088.png   |  Bin 0 -> 57598 bytes
+ .../045e9efe9002e054ff27fd61380f7859c595dd02.png   |  Bin 0 -> 58304 bytes
+ .../0686b74d42875e92c6f2d1b4d3c9d0204995259e.md    |  133 +
+ .../0809ad522563e961073bc43dcf677db8de37121e.png   |  Bin 0 -> 57696 bytes
+ .../0a4db84008fb6a950906c87bb8d0fff896588a66.png   |  Bin 0 -> 58162 bytes
+ .../103fdabb0d63986d73274c812aed755bce0f8324.md    |  416 ++
+ .../12defbe384c995663dd32bd94edc86ebc8fa629c.md    |  406 ++
+ .../1586fe21e791c842ec03afe9cb891b6335ee6da9.md    |  218 +
+ .../185b8b36ef7d88e54eb3aea5566ac723c9772dda.png   |  Bin 0 -> 44101 bytes
+ .../1edf498d019970247e1a69ea5773e55df46707a2.zip   |  Bin 0 -> 246824 bytes
+ .../1f594cd5ebed0777cea640273ee4a6eee3538038.md    |  218 +
+ .../20488c6d0497b8cbc9052ca483cdc25c15c40a16.md    |  233 +
+ .../222718ac03052b532fd759b7e4920d40bc85a7d6.png   |  Bin 0 -> 63052 bytes
+ .../2963726d44b4b9a02537b2e4704e4386aa498f68.png   |  Bin 0 -> 17880 bytes
+ .../2af4e5043aac1acd50b86f7b144a70b6077b0f14.png   |  Bin 0 -> 58385 bytes
+ .../2ba2e1ea89d17b24cb80e453bbc1755a0f2416a4.png   |  Bin 0 -> 58466 bytes
+ .../2d5170c052f781baa47ddadc78d5e6a5fc95d3db.png   |  Bin 0 -> 45703 bytes
+ .../3132a72aa4efe4877522398d54099b039d25c445.png   |  Bin 0 -> 57502 bytes
+ .../31c42f647ae8475aeb503bdf6b9e434de4a95df5.png   |  Bin 0 -> 92140 bytes
+ .../324852ac68707af6536c9e84eeb5b32a454f36b3.md    |   98 +
+ .../34e2b8ae6ed55a175aa320527e9c71999d3ef78b.md    |  134 +
+ .../3755ecafeb8801aac0762be23ffa2fd7849534bb.png   |  Bin 0 -> 58531 bytes
+ .../4357394c27c3a7febeec98bb134c40dcebc0a6f1.png   |  Bin 0 -> 92018 bytes
+ .../45292e7545c569fec2eea824c87eaa3e230d2f40.png   |  Bin 0 -> 57933 bytes
+ .../452c0c5830476956d04c8caabe824a7f95bc912f.png   |  Bin 0 -> 58023 bytes
+ .../47653363b2537fc54b983beb9e266558186f03e6.png   |  Bin 0 -> 91909 bytes
+ .../4a1a5d42aac95c77fa66d04f8de92a76f65b0b45.png   |  Bin 0 -> 92439 bytes
+ .../4cc7bb4888e6193fd65893920baf8c4340ff218e.png   |  Bin 0 -> 53771 bytes
+ .../51ca79145ffcdaa1753deb46d1fa722458a2e8b4.png   |  Bin 0 -> 61680 bytes
+ .../54eef0855f204cf8c66912bbdf687ad4888881ef.png   |  Bin 0 -> 62060 bytes
+ .../572f6b43898ecbb080e28506301895f29c42f942.md    |  329 ++
+ .../57e8fb884591630081d223f64e08ef776e21645d.png   |  Bin 0 -> 90975 bytes
+ .../5dba08fc44f4f0e93ef10565148691e804e48d63.png   |  Bin 0 -> 57628 bytes
+ .../6205ec1641242d62b5bcf3346b15b2b9c00ae2e9.png   |  Bin 0 -> 64326 bytes
+ .../6277e144b057a88f582170493009a9e4df37b0bc.png   |  Bin 0 -> 55715 bytes
+ .../6559143568a562ea611e8792ce4539bc4b8989fc.png   |  Bin 0 -> 45549 bytes
+ .../6b9c45b7eafa575745f05a0c467ae854ec8c0d62.md    |  195 +
+ .../6c4d64c5b84e855c7c275b257911006728fad71a.md    |  218 +
+ .../6d741cec3ffa7fe2d492450c0da8fecf8a872dd6.md    |  448 ++
+ .../7d8b341ae377e2c1bf901f94cff278df2b15ea8a.png   |  Bin 0 -> 56010 bytes
+ .../8125075c4056fa213285578456859c37150666cf.md    |  244 +
+ .../825c52b40c283a08fb94841d7d2330ff5d9c5d93.png   |  Bin 0 -> 91578 bytes
+ .../8461a08943ed2e34e2ea623bdf9a6be3f71887e9.md    |  218 +
+ .../856409736db711589f37e988f7c5999ebc6bc407.png   |  Bin 0 -> 61650 bytes
+ .../8d38aba7d3984cf50dcbea72e31f4147d2ebb5ad.md    |  218 +
+ .../946972abd0364fa7ac7a73b3115b82174b47c574.md    |  440 ++
+ .../976c93ddb46c95b655a1b25a67216aac3cb198e4.md    |  213 +
+ .../99d1cf3f475b13f99ca1c1405f614d35e8b2f704.png   |  Bin 0 -> 92193 bytes
+ .../9c02e6c54da47484896056c510c981825ceeec64.md    |  220 +
+ .../a6c652c8c762b4fe8f78bd304d7d37ff819cf324.png   |  Bin 0 -> 57901 bytes
+ .../ab4bce0b4573694cb7a1387fde153f9ced69f7a7.png   |  Bin 0 -> 49893 bytes
+ .../ae86b12e9abc106d028f587aa698e3e0abfdd3f0.png   |  Bin 0 -> 57458 bytes
+ .../b56119dd16e1da31646448aef25ee0788e4ae565.png   |  Bin 0 -> 56034 bytes
+ .../bccb8e62d5d6dd845e8bb1bc249f67671a083b86.png   |  Bin 0 -> 57857 bytes
+ .../bfb53bdaba8d33ce366815072bb260d65faf8717.png   |  Bin 0 -> 57812 bytes
+ .../c1154176b6ff4444bc55d4af50ce18e81d3adb7c.png   |  Bin 0 -> 62144 bytes
+ .../c386774478a7d4f4395848e8d863ad1f9ac885df.png   |  Bin 0 -> 91811 bytes
+ .../ca953570391b45a8e538cf25b56960cd844356df.png   |  Bin 0 -> 58448 bytes
+ .../ccc9fcfc61868be6939b9ea5e761257d1439b646.md    |  111 +
+ .../cd53e69af294fb0efade994e7c5c04262744415d.md    |  293 ++
+ .../cd7d49a65c1c1f2859b71e7bc9e01adadd7bd2fc.md    |  198 +
+ .../cdc76a1209b609580215eab648298a9341b4969b.png   |  Bin 0 -> 62434 bytes
+ .../ce96ee423ab02e49515316137b3fb6878cbd8b88.md    |  328 ++
+ .../d1e3171f636a692eb3b33dd997ec6644f1c95793.md    |  218 +
+ .../d21ae0a0048558139a3ee27ed33bde36bd3cb66c.png   |  Bin 0 -> 91828 bytes
+ .../d2fe68ec558e1771b2c10c5eecdc26f3f463899a.png   |  Bin 0 -> 71093 bytes
+ .../d5eb279394c30ec5fd098c02db25cb14745a1a1f.png   |  Bin 0 -> 111324 bytes
+ .../d70ce374550fab10ed3f62fc3accda8a6c1113eb.png   |  Bin 0 -> 58212 bytes
+ .../d88afae1782c34c642bf784b0b61874521b7e182.png   |  Bin 0 -> 91792 bytes
+ .../dbc192679f320faa0d875c8bbe3123d23e132753.png   |  Bin 0 -> 66587 bytes
+ .../e4cb6cfbd742ecec93977c635c53496547a50ceb.png   |  Bin 0 -> 55888 bytes
+ .../e7c6cacc84d9ab06c5c90ed66537604b1fb00177.md    |  227 +
+ .../e9c45f233ae19bf6046fcf11f64f57a9b45792ed.png   |  Bin 0 -> 58333 bytes
+ .../eedbc332035b2c8d6dca1cddc0141fe16a0a2e93.png   |  Bin 0 -> 58669 bytes
+ .../f00968bf39b402bef9c715f156e0bd4822bf5603.md    |  218 +
+ .../f02c6263ee2975fee577bb774a79b3fcc2e702d2.md    |  137 +
+ .../f1b3c6a95d8206e62721cd8520d08d8af9356c78.png   |  Bin 0 -> 47463 bytes
+ .../f203aa440217297242f5feb38a0ada3634fbb219.md    |  133 +
+ .../f225a4df893b39aa97fd131cf1fb243c288aeca1.png   |  Bin 0 -> 91594 bytes
+ .../f2b14bc0b120b6d393d2209881e7efebe680b618.png   |  Bin 0 -> 57003 bytes
+ .../fa03a8f6151563e4d6fa35340b98c19491d3ffa7.png   |  Bin 0 -> 90608 bytes
+ .../fdb27976c01256c47919c0be5538f91a6b124f51.md    |  435 ++
+ .../fe3d88769865c471c4a6663070296028a9e79391.md    |  218 +
+ tmp-reports/webkit/index.html                      |   49 +
+ tmp-reports/webkit/results.json                    | 4643 +++++++++++++++++++
+ .../trace/assets/codeMirrorModule-DNqxPF-E.js      |   32 +
+ .../trace/assets/defaultSettingsView-BQT9Z6FV.js   |  184 +
+ .../trace/assets/rolldown-runtime-QTnfLwEv.js      |    1 +
+ .../webkit/trace/assets/urlMatch-Cgl6axSs.js       |    1 +
+ .../webkit/trace/codeMirrorModule.-QdMvsKi.css     |    1 +
+ tmp-reports/webkit/trace/codicon.DCmgc-ay.ttf      |  Bin 0 -> 80340 bytes
+ .../webkit/trace/defaultSettingsView.C8BeHuxd.css  |    1 +
+ tmp-reports/webkit/trace/index.BY2vkw8A.js         |    1 +
+ tmp-reports/webkit/trace/index.B_TqY17P.css        |    1 +
+ tmp-reports/webkit/trace/index.html                |   45 +
+ tmp-reports/webkit/trace/manifest.webmanifest      |   16 +
+ tmp-reports/webkit/trace/playwright-logo.svg       |    9 +
+ tmp-reports/webkit/trace/snapshot.-ChLTbql.js      |    1 +
+ tmp-reports/webkit/trace/snapshot.html             |   10 +
+ tmp-reports/webkit/trace/sw.bundle.js              |    4 +
+ tmp-reports/webkit/trace/uiMode.CyMfwkXJ.css       |    1 +
+ tmp-reports/webkit/trace/uiMode.DuLwZHRf.js        |    5 +
+ tmp-reports/webkit/trace/uiMode.html               |   19 +
+ tmp-reports/webkit/trace/xtermModule.kHJ-D0s7.css  |    1 +
+ .../119c24d4e8df3db0d71ed53db43857498f2ab435.md    |  195 +
+ .../1a716a0598a6bf92b0acbec16c34cf2b4fae2b02.md    |  137 +
+ .../1c0ae551f36c06343daea278751ed0c39e7f13fd.md    |  213 +
+ .../222718ac03052b532fd759b7e4920d40bc85a7d6.png   |  Bin 0 -> 63052 bytes
+ .../244d3bab4bb63ca520f0c04d8daf1adfb61a19ea.png   |  Bin 0 -> 61678 bytes
+ .../33d89459a7dbfb04996ee228a580b51b62a92a3f.md    |  133 +
+ .../54eef0855f204cf8c66912bbdf687ad4888881ef.png   |  Bin 0 -> 62060 bytes
+ .../6205ec1641242d62b5bcf3346b15b2b9c00ae2e9.png   |  Bin 0 -> 64326 bytes
+ .../6559143568a562ea611e8792ce4539bc4b8989fc.png   |  Bin 0 -> 45549 bytes
+ .../80ee006beeea7956ecd96ae4516e4b2c4f4c1d2c.md    |  198 +
+ .../8505463c5b85c53d8c1955ea0836d10a0ae42c64.md    |  242 +
+ .../856409736db711589f37e988f7c5999ebc6bc407.png   |  Bin 0 -> 61650 bytes
+ .../996e6edfe8fef8cf67db1cc7eb4c6b6efce74c73.png   |  Bin 0 -> 70524 bytes
+ .../ab4bce0b4573694cb7a1387fde153f9ced69f7a7.png   |  Bin 0 -> 49893 bytes
+ .../c1154176b6ff4444bc55d4af50ce18e81d3adb7c.png   |  Bin 0 -> 62144 bytes
+ .../cdc76a1209b609580215eab648298a9341b4969b.png   |  Bin 0 -> 62434 bytes
+ .../d2fe68ec558e1771b2c10c5eecdc26f3f463899a.png   |  Bin 0 -> 71093 bytes
+ .../fedca663d714bb2c9461cbf55225689d7d62cc68.md    |  133 +
+ tmp-reports/wk-repeat/index.html                   |   49 +
+ tmp-reports/wk-repeat/results.json                 | 3761 ++++++++++++++++
+ 210 files changed, 28507 insertions(+), 10 deletions(-)
+
+commit 732b5238cb05193c272bc1c7bd82e69a162a791e
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:28:05 2026 +0700
+
+    chore(fr03,fr16): mark known bugs with test.fail + issue annotation
+    
+    Rows with a 'bugs' field in the data files are expected failures; the HTML
+    report shows the bug id + issue link, so 'known bug', 'pass' and 'new
+    failure' are separated.
+
+ tests/fr03-forgot-password.spec.ts | 7 ++++++-
+ tests/fr16-csv-import.spec.ts      | 3 ++-
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+commit 89b2b86b05f0b83a58ce168ea6d3bfa46f7d10ef
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:07:51 2026 +0700
+
+    test(fr16): add TC09–TC12 edge cases (header-only, whitespace name, non-admin token, admin list)
+    
+    TC11 exposes a new defect: /api/admin/import-products only checks that a
+    JWT exists, so a normal user token can import products (BUG-FR16-005).
+
+ data/fr16-import.json         | 246 ++++++++++++++++++++++++++++++++++++++----
+ data/known-bugs.json          |  69 +++++++++---
+ tests/fr16-csv-import.spec.ts |  26 +++--
+ 3 files changed, 300 insertions(+), 41 deletions(-)
+
+commit 12837ec20364efd0e5dddde07d9100773827755a
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:06:19 2026 +0700
+
+    feat(fr16): initial AI-generated CSV import spec, manifest and CSV fixtures
+
+ data/fr16-import.json         | 29 ++++++++++++++++++++++
+ data/fr16/empty-name.csv      |  2 ++
+ data/fr16/header-only.csv     |  1 +
+ data/fr16/invalid-ext.txt     |  2 ++
+ data/fr16/mixed-atomic.csv    |  4 +++
+ data/fr16/price-min.csv       |  2 ++
+ data/fr16/price-negative.csv  |  2 ++
+ data/fr16/price-zero.csv      |  2 ++
+ data/fr16/quoted-comma.csv    |  2 ++
+ data/fr16/valid.csv           |  3 +++
+ data/fr16/visible-product.csv |  2 ++
+ data/fr16/whitespace-name.csv |  2 ++
+ data/fr16/wrong-header.csv    |  2 ++
+ tests/fr16-csv-import.spec.ts | 57 +++++++++++++++++++++++++++++++++++++++++++
+ 14 files changed, 112 insertions(+)
+
+commit 045e5bd2d686b09ffdb23d7b90bbf437ece86f7f
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:05:38 2026 +0700
+
+    test(fr08): add UI-level TC08–TC10 (line subtotals, remove line, order history)
+    
+    Order total/status now polled from /api/orders/my-orders (expect.poll)
+    instead of a single read right after the success screen.
+
+ data/fr08-checkout.json     | 284 ++++++++++++++++++++++++++++++++++++++++----
+ tests/fr08-checkout.spec.ts |  40 ++++++-
+ 2 files changed, 295 insertions(+), 29 deletions(-)
+
+commit e3425da63220e02fe90cdbd1b3e7d8e134a426a9
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:04:59 2026 +0700
+
+    fix(fr08): TC02 'guest' was silently logged in by the userPage init script
+    
+    userPage used addInitScript to inject the token, which re-runs on every
+    navigation, so localStorage.clear() in TC02 had no effect and the guest
+    check ran as a logged-in user. Token is now seeded once (loginWithToken),
+    TC02 uses a bare page and asserts the guest precondition first.
+
+ fixtures/test-fixtures.ts   | 17 +++++++++++++----
+ tests/fr08-checkout.spec.ts | 14 +++++++++-----
+ 2 files changed, 22 insertions(+), 9 deletions(-)
+
+commit fbdbab1e30c59f5b303c1a6a54703f0543f4d8a6
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:01:27 2026 +0700
+
+    feat(fr08): initial AI-generated data-driven checkout spec + test data
+
+ data/fr08-checkout.json     |  47 +++++++++++++++++++
+ tests/fr08-checkout.spec.ts | 108 ++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 155 insertions(+)
+
+commit dbaf3dea52f766cc0e442c34220bd51eaacae4b2
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 10:00:53 2026 +0700
+
+    fix(fr03): event-driven dialog handling instead of fixed waits; assert before click
+    
+    - captureDialog now returns as soon as an alert appears or the caller's
+      success signal (OTP banner) is met; step-1 no longer sleeps 1.5 s per test
+    - TC17 asserted visibility before click(): missing element failed after the
+      30 s test timeout instead of a 7 s expect
+    - json reporter moved after html (html reporter wipes its folder)
+    FR-03 chromium run: 2.2 min -> 68 s
+
+ fixtures/test-fixtures.ts          | 33 +++++++++++++++++++++------------
+ pages/ForgotPasswordPage.ts        |  6 +++++-
+ playwright.config.ts               |  3 ++-
+ scripts/inspect-results.mjs        | 12 ++++++++++++
+ tests/fr03-forgot-password.spec.ts |  2 ++
+ 5 files changed, 42 insertions(+), 14 deletions(-)
+
+commit a413f0cb747ace89d8fb26fb310fca8b53e332ae
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 09:49:04 2026 +0700
+
+    feat(fr03): initial AI-generated data-driven spec + test data
+
+ .gitattributes                     |   2 +
+ data/fr03-forgot-password.json     |  59 +++++++++++++
+ tests/fr03-forgot-password.spec.ts | 174 +++++++++++++++++++++++++++++++++++++
+ 3 files changed, 235 insertions(+)
+
+commit dc25727ec291df6ccbe13120f0aafcab2edc0d24
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 09:48:09 2026 +0700
+
+    chore: scaffold Playwright project (config, fixtures, page objects)
+
+ .gitignore                    |   6 +
+ PLAN.md                       | 276 +++++++++++++++++++++++++
+ data/known-bugs.json          |  15 ++
+ fixtures/test-fixtures.ts     | 114 ++++++++++
+ package-lock.json             | 469 ++++++++++++++++++++++++++++++++++++++++++
+ package.json                  |  23 +++
+ pages/AdminImportPage.ts      |  39 ++++
+ pages/ForgotPasswordPage.ts   |  60 ++++++
+ pages/ShopPages.ts            |  94 +++++++++
+ playwright.config.ts          |  53 +++++
+ requirements.md               | 255 +++++++++++++++++++++++
+ scripts/run-all.sh            |  14 ++
+ scripts/summarize-reports.mjs |  49 +++++
+ 13 files changed, 1467 insertions(+)

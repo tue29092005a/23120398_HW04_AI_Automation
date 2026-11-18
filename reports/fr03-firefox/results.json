@@ -1,0 +1,2610 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/fr03-",
+      "--project=firefox"
+    ],
+    "configFile": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\playwright.config.ts",
+    "rootDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "Run by": "23120398",
+      "Timestamp": "2026-11-18T03:29:21.366Z",
+      "Report": "fr03-firefox",
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr03-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:29:21.366Z",
+          "Report": "fr03-firefox",
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr03-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:29:21.366Z",
+          "Report": "fr03-firefox",
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/test-results/fr03-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:29:21.366Z",
+          "Report": "fr03-firefox",
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/CNTT/2026-2027/KTPM/23120398_HW04_AI_Automation_090/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23120398",
+          "Timestamp": "2026-11-18T03:29:21.366Z",
+          "Report": "fr03-firefox",
+          "actualWorkers": 1
+        },
+        "name": "firefox",
+        "testDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests",
+        "snapshotDir": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://localhost:5173",
+          "locale": "en-US",
+          "screenshot": "on",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:159.0) Gecko/20100101 Firefox/159.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/fr03-firefox",
+          "open": "never",
+          "title": "Run by: 23120398 – 2026-11-18T03:29:21.366Z"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/fr03-firefox/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "fr03-forgot-password.spec.ts",
+      "file": "fr03-forgot-password.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "FR-03 Forgot password – step 1 (request OTP)",
+          "file": "fr03-forgot-password.spec.ts",
+          "line": 25,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC02 [EP] unregistered email is rejected and no OTP is issued",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4021,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:22.199Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-531f2-jected-and-no-OTP-is-issued-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-f40200dd41ffc48fd5d0",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 27,
+              "column": 5
+            },
+            {
+              "title": "TC03 [EP] empty email is blocked by required validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6118,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:27.046Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-cef36-cked-by-required-validation-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-96e1c28e3b7c0a6a17e5",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 27,
+              "column": 5
+            },
+            {
+              "title": "TC04 [EP] malformed email is rejected and no OTP is issued",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3128,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:33.186Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-ee541-jected-and-no-OTP-is-issued-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-38937d61818dbae11ced",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 27,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "FR-03 Forgot password – step 2 (reset with OTP)",
+          "file": "fr03-forgot-password.spec.ts",
+          "line": 45,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC01 [EP] valid OTP and strong password resets the password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3349,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:36.332Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-134d1-assword-resets-the-password-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-134d1-assword-resets-the-password-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-ea62a355da0f24aa58dd",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC05 [EP] wrong numeric OTP is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3042,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:39.712Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-5afb5-ong-numeric-OTP-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-6da2f37c19d384fd4abc",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC07 [EP] empty OTP is blocked by required validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6483,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:42.771Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-64025-cked-by-required-validation-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-a5b82ab309c56609c30f",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC08 [EP] non-numeric OTP is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3574,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:49.278Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-d798c-non-numeric-OTP-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-0f39aae0f8be1d875d9d",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC09 [EP] password shorter than 8 characters is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3342,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:52.875Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-cd3e0-an-8-characters-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-4d959bc5c194e7fed12d",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC10 [EP] password without uppercase is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3079,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:56.230Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-547b7-thout-uppercase-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-be77b45dae1b6728c700",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC11 [EP] password without lowercase is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4083,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:29:59.326Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-84787-thout-lowercase-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-43853d28cf3c15a3fd20",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC12 [EP] password without digit is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3387,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:03.426Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-e0a47-d-without-digit-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-25ec5aef300405572aa4",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC13 [EP] password without special character is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3355,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:06.829Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-61ef6-ecial-character-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-e4643e122bacbc32377a",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC14 [EP] whitespace is not accepted as the special character",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3505,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Mật khẩu quá yếu!\"\u001b[39m\nReceived string:    \u001b[31m\"Đổi mật khẩu thành công!\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Mật khẩu quá yếu!\"\u001b[39m\nReceived string:    \u001b[31m\"Đổi mật khẩu thành công!\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Mật khẩu quá yếu!\"\u001b[39m\nReceived string:    \u001b[31m\"Đổi mật khẩu thành công!\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:10.200Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-594ea-ed-as-the-special-character-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-594ea-ed-as-the-special-character-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-7712782b69f9c86ab475",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC22 [EP] special character outside the allowed set (#) is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3159,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:13.724Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-04d6c-the-allowed-set-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-72b0f428cd1b7925ae33",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA01 [BVA] password length 7 is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3475,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:16.899Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-e2a9a-ssword-length-7-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-076af73096fd01a4148e",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA02 [BVA] password length 8 is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3608,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:20.391Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-fbccb-ssword-length-8-is-accepted-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-fbccb-ssword-length-8-is-accepted-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-8bf36e13f31966f30d48",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA03 [BVA] password length 9 is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3032,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:24.030Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-293ed-ssword-length-9-is-accepted-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-293ed-ssword-length-9-is-accepted-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-d444a5a65bda05c42b16",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA04 [BVA] password length 12 is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3397,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:27.078Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-c67f3-sword-length-12-is-accepted-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-c67f3-sword-length-12-is-accepted-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-2da442994cd6729e384a",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA05 [BVA] password length 63 is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3617,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:30.503Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-541f2-sword-length-63-is-accepted-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-541f2-sword-length-63-is-accepted-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-986c76a4f5b75d839793",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA06 [BVA] password length 64 is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3951,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:34.154Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-4f294-sword-length-64-is-accepted-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-4f294-sword-length-64-is-accepted-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-7f08b5ccb95476f41e17",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA07 [BVA] password length 65 is accepted (no upper limit in spec)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3364,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 30,
+                          "line": 63
+                        },
+                        "snippet": " \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpInput)\u001b[33m.\u001b[39mtoHaveJSProperty(\u001b[32m'validity.valueMissing'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m       } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m         expect(dialog \u001b[33m??\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtoContain(msg[tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39mdialog\u001b[33m!\u001b[39m])\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       }\n \u001b[90m 65 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpect\u001b[33m.\u001b[39murl) \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m`${tc.expect.url}$`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 30,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n\n  61 |         await expect(fp.otpInput).toHaveJSProperty('validity.valueMissing', true);\n  62 |       } else {\n> 63 |         expect(dialog ?? '').toContain(msg[tc.expect.dialog!]);\n     |                              ^\n  64 |       }\n  65 |       if (tc.expect.url) await expect(page).toHaveURL(new RegExp(`${tc.expect.url}$`));\n  66 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:38.149Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-c4a8c-ted-no-upper-limit-in-spec--firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-c4a8c-ted-no-upper-limit-in-spec--firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 30,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-4194c39306c01565ebb5",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA08 [BVA] OTP shorter than issued (prefix) is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3407,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:41.548Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-a43d8-n-issued-prefix-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-a13c93656bf42c29381b",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "BVA10 [BVA] OTP longer than issued (extra digit) is rejected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3636,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:44.980Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-f12ba-ued-extra-digit-is-rejected-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-269c0ecd5b85843c8639",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 47,
+              "column": 5
+            },
+            {
+              "title": "TC23 [EP] each allowed special character @ $ ! % * ? & is accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-001",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7007,
+                      "error": {
+                        "message": "Error: password \"Reset@2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m",
+                        "stack": "Error: password \"Reset@2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 53,
+                          "line": 83
+                        },
+                        "snippet": " \u001b[90m 81 |\u001b[39m       \u001b[36mawait\u001b[39m fp\u001b[33m.\u001b[39mrequestOtp(user\u001b[33m.\u001b[39memail)\u001b[33m;\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[36mconst\u001b[39m dialog \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fp\u001b[33m.\u001b[39mreset(\u001b[36mawait\u001b[39m fp\u001b[33m.\u001b[39missuedOtp()\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 83 |\u001b[39m       expect\u001b[33m.\u001b[39msoft(dialog\u001b[33m,\u001b[39m \u001b[32m`password \"${password}\"`\u001b[39m)\u001b[33m.\u001b[39mtoBe(msg\u001b[33m.\u001b[39msuccess)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 84 |\u001b[39m     }\n \u001b[90m 85 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 86 |\u001b[39m })\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset@2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset$2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset!2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset%2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset*2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset?2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 53,
+                            "line": 83
+                          },
+                          "message": "Error: password \"Reset&2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n\n  81 |       await fp.requestOtp(user.email);\n  82 |       const dialog = await fp.reset(await fp.issuedOtp(), password);\n> 83 |       expect.soft(dialog, `password \"${password}\"`).toBe(msg.success);\n     |                                                     ^\n  84 |     }\n  85 |   });\n  86 | });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:48.644Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-001",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-29692-ecial-character-is-accepted-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-29692-ecial-character-is-accepted-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 53,
+                        "line": 83
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-06c3cd3c35228aaf6a36",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 74,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "FR-03 Forgot password – UI requirements",
+          "file": "fr03-forgot-password.spec.ts",
+          "line": 88,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC15 [EP] step 2 offers a Confirm New Password field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-004: Missing Confirm New Password field in step 2 – https://github.com/NguyenSonTung16/HW02/issues/28"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-004",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9879,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('input[type=\"password\"]')\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" getByRole('main').locator('input[type=\"password\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    18 × locator resolved to 1 element\u001b[22m\n\u001b[2m       - unexpected value \"1\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('input[type=\"password\"]')\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" getByRole('main').locator('input[type=\"password\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    18 × locator resolved to 1 element\u001b[22m\n\u001b[2m       - unexpected value \"1\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:103:43",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 43,
+                          "line": 103
+                        },
+                        "snippet": " \u001b[90m 101 |\u001b[39m       \u001b[36mswitch\u001b[39m (tc\u001b[33m.\u001b[39mcheck) {\n \u001b[90m 102 |\u001b[39m         \u001b[36mcase\u001b[39m \u001b[32m'confirmField'\u001b[39m\u001b[33m:\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 103 |\u001b[39m           \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39mpasswordInputs)\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 104 |\u001b[39m           \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 105 |\u001b[39m         \u001b[36mcase\u001b[39m \u001b[32m'stepIndicator'\u001b[39m\u001b[33m:\u001b[39m\n \u001b[90m 106 |\u001b[39m           \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39mstepIndicator)\u001b[33m.\u001b[39mtoContainText(\u001b[35m/2\\s*\\/\\s*2/\u001b[39m)\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 43,
+                            "line": 103
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('input[type=\"password\"]')\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" getByRole('main').locator('input[type=\"password\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    18 × locator resolved to 1 element\u001b[22m\n\u001b[2m       - unexpected value \"1\"\u001b[22m\n\n\n  101 |       switch (tc.check) {\n  102 |         case 'confirmField':\n> 103 |           await expect(fp.passwordInputs).toHaveCount(2);\n      |                                           ^\n  104 |           break;\n  105 |         case 'stepIndicator':\n  106 |           await expect(fp.stepIndicator).toContainText(/2\\s*\\/\\s*2/);\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:103:43"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:30:55.685Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-004: Missing Confirm New Password field in step 2 – https://github.com/NguyenSonTung16/HW02/issues/28"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-004",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-a6873--Confirm-New-Password-field-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-a6873--Confirm-New-Password-field-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 43,
+                        "line": 103
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-7da4fcb85d48f2090524",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 90,
+              "column": 5
+            },
+            {
+              "title": "TC16 [EP] a step indicator (Step 1 / 2, Step 2 / 2) is shown",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-005",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10012,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\nExpected pattern: \u001b[32m/1\\s*\\/\\s*2/\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\nExpected pattern: \u001b[32m/1\\s*\\/\\s*2/\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:96:40",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 40,
+                          "line": 96
+                        },
+                        "snippet": " \u001b[90m 94 |\u001b[39m\n \u001b[90m 95 |\u001b[39m       \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mcheck \u001b[33m===\u001b[39m \u001b[32m'stepIndicator'\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 96 |\u001b[39m         \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39mstepIndicator)\u001b[33m.\u001b[39mtoContainText(\u001b[35m/1\\s*\\/\\s*2/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 97 |\u001b[39m       }\n \u001b[90m 98 |\u001b[39m       \u001b[36mawait\u001b[39m fp\u001b[33m.\u001b[39mrequestOtp(user\u001b[33m.\u001b[39memail)\u001b[33m;\u001b[39m\n \u001b[90m 99 |\u001b[39m       \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39motpMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 40,
+                            "line": 96
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\nExpected pattern: \u001b[32m/1\\s*\\/\\s*2/\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\u001b[22m\n\n\n  94 |\n  95 |       if (tc.check === 'stepIndicator') {\n> 96 |         await expect(fp.stepIndicator).toContainText(/1\\s*\\/\\s*2/);\n     |                                        ^\n  97 |       }\n  98 |       await fp.requestOtp(user.email);\n  99 |       await expect(fp.otpMessage).toBeVisible();\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:96:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:05.595Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-005",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-91852--Step-1-2-Step-2-2-is-shown-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-91852--Step-1-2-Step-2-2-is-shown-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 40,
+                        "line": 96
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-1fb12aa4e2f568b3fe73",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 90,
+              "column": 5
+            },
+            {
+              "title": "TC17 [EP] a Back to Login control navigates to /login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-005",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10290,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('main').getByRole('link', { name: /login|đăng nhập/i }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('main').getByRole('link', { name: /login|đăng nhập/i }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:110:40",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 40,
+                          "line": 110
+                        },
+                        "snippet": " \u001b[90m 108 |\u001b[39m         \u001b[36mcase\u001b[39m \u001b[32m'backToLogin'\u001b[39m\u001b[33m:\u001b[39m\n \u001b[90m 109 |\u001b[39m           \u001b[90m// Assert first: click() on a missing element burns the whole 30 s test timeout.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 |\u001b[39m           \u001b[36mawait\u001b[39m expect(fp\u001b[33m.\u001b[39mbackToLogin)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 111 |\u001b[39m           \u001b[36mawait\u001b[39m fp\u001b[33m.\u001b[39mbackToLogin\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m           \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/login$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 113 |\u001b[39m           \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 40,
+                            "line": 110
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('main').getByRole('link', { name: /login|đăng nhập/i }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\u001b[22m\n\n\n  108 |         case 'backToLogin':\n  109 |           // Assert first: click() on a missing element burns the whole 30 s test timeout.\n> 110 |           await expect(fp.backToLogin).toBeVisible();\n      |                                        ^\n  111 |           await fp.backToLogin.click();\n  112 |           await expect(page).toHaveURL(/\\/login$/);\n  113 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:110:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:15.657Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-005",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-154f9--control-navigates-to-login-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-154f9--control-navigates-to-login-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 40,
+                        "line": 110
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-80caca943215b0612655",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 90,
+              "column": 5
+            },
+            {
+              "title": "TC24 [EP] new password input is masked (type=password)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3033,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:25.965Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-e4421-ut-is-masked-type-password--firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-345ff0a8cd357aa09d36",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 90,
+              "column": 5
+            },
+            {
+              "title": "BVA09 [BVA] the issued OTP has exactly 6 digits",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-002",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3000,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7680\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7680\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:118:40",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 40,
+                          "line": 118
+                        },
+                        "snippet": " \u001b[90m 116 |\u001b[39m           \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 117 |\u001b[39m         \u001b[36mcase\u001b[39m \u001b[32m'otpWidth'\u001b[39m\u001b[33m:\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 118 |\u001b[39m           expect(\u001b[36mawait\u001b[39m fp\u001b[33m.\u001b[39missuedOtp())\u001b[33m.\u001b[39mtoMatch(\u001b[35m/^\\d{6}$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 119 |\u001b[39m           \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 120 |\u001b[39m       }\n \u001b[90m 121 |\u001b[39m     })\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 40,
+                            "line": 118
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7680\"\u001b[39m\n\n  116 |           break;\n  117 |         case 'otpWidth':\n> 118 |           expect(await fp.issuedOtp()).toMatch(/^\\d{6}$/);\n      |                                        ^\n  119 |           break;\n  120 |       }\n  121 |     });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:118:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:29.013Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-002",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-9510f-ed-OTP-has-exactly-6-digits-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-9510f-ed-OTP-has-exactly-6-digits-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 40,
+                        "line": 118
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-b17ec971c39ad7b56a6d",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 90,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "FR-03 Forgot password – API level",
+          "file": "fr03-forgot-password.spec.ts",
+          "line": 125,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC06 [EP] OTP issued for account A cannot reset account B",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 63,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:32.035Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-c1159d20f29464792e2d",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 135,
+              "column": 5
+            },
+            {
+              "title": "TC18 [EP] every issued OTP is a 6-digit number",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-002",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    },
+                    {
+                      "type": "observed widths",
+                      "description": "4"
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 198,
+                      "error": {
+                        "message": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9988\"\u001b[39m",
+                        "stack": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9988\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 50,
+                          "line": 153
+                        },
+                        "snippet": " \u001b[90m 151 |\u001b[39m             \u001b[36mconst\u001b[39m otp \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m requestOtp(request\u001b[33m,\u001b[39m user\u001b[33m.\u001b[39memail)\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m             widths\u001b[33m.\u001b[39madd(otp\u001b[33m.\u001b[39mlength)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 153 |\u001b[39m             expect\u001b[33m.\u001b[39msoft(otp\u001b[33m,\u001b[39m \u001b[32m`sample #${i + 1}`\u001b[39m)\u001b[33m.\u001b[39mtoMatch(\u001b[35m/^\\d{6}$/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 154 |\u001b[39m           }\n \u001b[90m 155 |\u001b[39m           test\u001b[33m.\u001b[39minfo()\u001b[33m.\u001b[39mannotations\u001b[33m.\u001b[39mpush({ type\u001b[33m:\u001b[39m \u001b[32m'observed widths'\u001b[39m\u001b[33m,\u001b[39m description\u001b[33m:\u001b[39m [\u001b[33m...\u001b[39mwidths]\u001b[33m.\u001b[39mjoin(\u001b[32m','\u001b[39m) })\u001b[33m;\u001b[39m\n \u001b[90m 156 |\u001b[39m           \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9988\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #2\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"1671\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #3\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3087\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #4\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"1854\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #5\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"1298\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2877\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #7\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6673\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #8\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2935\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #9\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4036\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #10\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9316\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #11\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6744\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #12\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5668\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #13\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9150\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #14\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5084\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #15\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7382\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #16\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"8350\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #17\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9905\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #18\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5993\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #19\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2033\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        },
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 50,
+                            "line": 153
+                          },
+                          "message": "Error: sample #20\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"1721\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:32.111Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-002",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        },
+                        {
+                          "type": "observed widths",
+                          "description": "4"
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-1cbd7-ued-OTP-is-a-6-digit-number-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 50,
+                        "line": 153
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-e3742b8873c38d6baf18",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 135,
+              "column": 5
+            },
+            {
+              "title": "TC19 [EP] an OTP cannot be used twice",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 47,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:32.325Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-06cf5bed7c85336e868b",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 135,
+              "column": 5
+            },
+            {
+              "title": "TC20 [EP] requesting a new OTP invalidates the previous one",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 43,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:32.383Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-d4b0f9ae87843a1a557c",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 135,
+              "column": 5
+            },
+            {
+              "title": "TC21 [EP] backend rejects a weak password (\"123\")",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": "BUG-FR03-003: Backend /api/reset-password does not validate password policy – https://github.com/NguyenSonTung16/HW02/issues/27"
+                    },
+                    {
+                      "type": "fail",
+                      "description": "Known defect: BUG-FR03-003",
+                      "location": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                        "line": 110,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 37,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:174:32",
+                        "location": {
+                          "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                          "column": 32,
+                          "line": 174
+                        },
+                        "snippet": " \u001b[90m 172 |\u001b[39m           \u001b[36mconst\u001b[39m otp \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m requestOtp(request\u001b[33m,\u001b[39m user\u001b[33m.\u001b[39memail)\u001b[33m;\u001b[39m\n \u001b[90m 173 |\u001b[39m           \u001b[36mconst\u001b[39m res \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m reset(request\u001b[33m,\u001b[39m user\u001b[33m.\u001b[39memail\u001b[33m,\u001b[39m otp\u001b[33m,\u001b[39m tc\u001b[33m.\u001b[39mpassword\u001b[33m!\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 174 |\u001b[39m           expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpectStatus)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 175 |\u001b[39m           expect((\u001b[36mawait\u001b[39m apiLogin(request\u001b[33m,\u001b[39m user\u001b[33m.\u001b[39memail\u001b[33m,\u001b[39m tc\u001b[33m.\u001b[39mpassword\u001b[33m!\u001b[39m))\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 176 |\u001b[39m           \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 177 |\u001b[39m         }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                            "column": 32,
+                            "line": 174
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  172 |           const otp = await requestOtp(request, user.email);\n  173 |           const res = await reset(request, user.email, otp, tc.password!);\n> 174 |           expect(res.status()).toBe(tc.expectStatus);\n      |                                ^\n  175 |           expect((await apiLogin(request, user.email, tc.password!)).ok()).toBe(false);\n  176 |           break;\n  177 |         }\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:174:32"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T03:31:32.438Z",
+                      "annotations": [
+                        {
+                          "type": "issue",
+                          "description": "BUG-FR03-003: Backend /api/reset-password does not validate password policy – https://github.com/NguyenSonTung16/HW02/issues/27"
+                        },
+                        {
+                          "type": "fail",
+                          "description": "Known defect: BUG-FR03-003",
+                          "location": {
+                            "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\fixtures\\test-fixtures.ts",
+                            "line": 110,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\test-results\\fr03-firefox\\fr03-forgot-password-FR-03-92afb-ejects-a-weak-password-123--firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
+                        "column": 32,
+                        "line": 174
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7b92d67e2a2c0296e68-5363f56a7fcb43e9f153",
+              "file": "fr03-forgot-password.spec.ts",
+              "line": 135,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-18T03:29:21.371Z",
+    "duration": 131690.17500000002,
+    "expected": 34,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
