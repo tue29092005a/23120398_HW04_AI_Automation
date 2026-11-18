@@ -28,14 +28,22 @@ export async function createUser(
 }
 
 /**
- * Logs the web app in by seeding localStorage once (no addInitScript, so a
- * test can still log out / clear storage afterwards), then waits until
- * AuthContext has loaded /api/users/me and the header shows "Thoát".
+ * Logs the web app in through the real /login form and waits until the
+ * header shows "Thoát".
+ *
+ * History: v1 used addInitScript (re-injected the token on every navigation,
+ * so a test could never become a guest again); v2 wrote localStorage and
+ * reloaded, which flaked ~10% on WebKit/Windows (the write was sometimes not
+ * visible after reload). Driving the UI avoids both problems.
  */
-export async function loginWithToken(page: Page, token: string) {
-  await page.goto('/');
-  await page.evaluate((t) => window.localStorage.setItem('token', t), token);
-  await page.reload();
+export async function loginViaUi(page: Page, user: { email: string; password: string }) {
+  await page.goto('/login');
+  const form = page.getByRole('main').locator('form');
+  const field = (label: string) =>
+    form.locator('label', { hasText: label }).locator('xpath=following-sibling::input[1]');
+  await field('Username').fill(user.email);
+  await field('Mật khẩu').fill(user.password);
+  await form.getByRole('button', { name: 'Sign In' }).click();
   await expect(page.getByRole('button', { name: 'Thoát' })).toBeVisible();
 }
 
@@ -117,7 +125,7 @@ export const test = base.extend<Fixtures>({
     await use(await createUser(request, testInfo.project.name));
   },
   userPage: async ({ page, user }, use) => {
-    await loginWithToken(page, user.token);
+    await loginViaUi(page, user);
     await use(page);
   },
   adminToken: async ({ request }, use) => {

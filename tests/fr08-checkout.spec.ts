@@ -1,4 +1,4 @@
-import { test, expect, API, createUser, loginWithToken } from '../fixtures/test-fixtures';
+import { test, expect, markKnownBug, API, createUser, loginViaUi } from '../fixtures/test-fixtures';
 import { HomePage, CartPage, CheckoutPage } from '../pages/ShopPages';
 import data from '../data/fr08-checkout.json';
 
@@ -12,6 +12,7 @@ async function fillCart(home: HomePage, items: Item[]) {
 test.describe('FR-08 Checkout – cart total (BVA on quantity)', () => {
   for (const tc of data.cartTotals) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ userPage: page }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const home = new HomePage(page);
       const cart = new CartPage(page);
       await fillCart(home, tc.items);
@@ -26,6 +27,7 @@ test.describe('FR-08 Checkout – cart total (BVA on quantity)', () => {
 test.describe('FR-08 Checkout – cart contents before checkout (HW04 additions)', () => {
   for (const tc of data.cartEdits) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ userPage: page }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const home = new HomePage(page);
       const cart = new CartPage(page);
       await fillCart(home, tc.items);
@@ -51,6 +53,7 @@ test.describe('FR-08 Checkout – cart contents before checkout (HW04 additions)
 test.describe('FR-08 Checkout – end-to-end flows', () => {
   for (const tc of data.checkoutFlows) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ userPage: page, request, user }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const home = new HomePage(page);
       const cart = new CartPage(page);
       const checkout = new CheckoutPage(page);
@@ -95,6 +98,7 @@ test.describe('FR-08 Checkout – access rules', () => {
   for (const tc of data.access) {
     // Only `page` here: requesting `userPage` would log the "guest" in too.
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ page, request }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       if (tc.scenario === 'guestCheckout') {
         await page.goto('/checkout');
         // Precondition: really a guest (header offers "Đăng nhập").
@@ -103,7 +107,7 @@ test.describe('FR-08 Checkout – access rules', () => {
         await expect(new CheckoutPage(page).confirmButton).toHaveCount(0);
       } else {
         const user = await createUser(request, test.info().project.name);
-        await loginWithToken(page, user.token);
+        await loginViaUi(page, user);
         const cart = new CartPage(page);
         await cart.open();
         await expect(cart.emptyMessage).toBeVisible();
@@ -116,6 +120,7 @@ test.describe('FR-08 Checkout – access rules', () => {
 test.describe('FR-08 Checkout – API tampering', () => {
   for (const tc of data.apiTampering) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ request, user }) => {
+      markKnownBug((tc as { bugs?: string[] }).bugs);
       const auth = { Authorization: `Bearer ${user.token}` };
       const items = tc.items.map((it) => ({ ...products[it.product], quantity: it.qty }));
 
