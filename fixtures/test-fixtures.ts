@@ -1,4 +1,4 @@
-import { test as base, expect, APIRequestContext, Page } from '@playwright/test';
+import { test as base, expect, APIRequestContext, Dialog, Page } from '@playwright/test';
 import knownBugs from '../data/known-bugs.json';
 
 export const API = 'http://localhost:3000/api';
@@ -50,18 +50,27 @@ export async function productCount(request: APIRequestContext): Promise<number> 
 export async function captureDialog(
   page: Page,
   action: () => Promise<unknown>,
-  timeout = 3_000,
+  opts: { timeout?: number; until?: () => Promise<unknown> } = {},
 ): Promise<string | null> {
-  const dialog = page
-    .waitForEvent('dialog', { timeout })
-    .then(async (d) => {
-      const msg = d.message();
-      await d.accept();
-      return msg;
-    })
-    .catch(() => null);
-  await action();
-  return dialog;
+  let message: string | null = null;
+  const onDialog = async (d: Dialog) => {
+    message = d.message();
+    await d.accept().catch(() => {});
+  };
+  page.on('dialog', onDialog);
+  try {
+    await action();
+    if (message === null) {
+      // Stop waiting as soon as a dialog shows up OR the caller's success
+      // signal (`until`) is met – no fixed sleeps.
+      const waits: Promise<unknown>[] = [page.waitForEvent('dialog', { timeout: opts.timeout ?? 3_000 })];
+      if (opts.until) waits.push(opts.until());
+      await Promise.race(waits).catch(() => {});
+    }
+  } finally {
+    page.off('dialog', onDialog);
+  }
+  return message;
 }
 
 /**

@@ -40,7 +40,11 @@ export class ForgotPasswordPage {
   /** Step 1. Returns the alert text, or null when the OTP step opened. */
   async requestOtp(email: string): Promise<string | null> {
     await this.emailInput.fill(email);
-    return captureDialog(this.page, () => this.requestOtpButton.click(), 1_500);
+    // Settle on whichever comes first: an error alert or the OTP banner.
+    // (A fixed "wait 1.5 s for a dialog" slowed every happy-path test.)
+    return captureDialog(this.page, () => this.requestOtpButton.click(), {
+      until: () => this.otpMessage.waitFor({ timeout: 3_000 }),
+    });
   }
 
   /** Reads the OTP the demo SUT prints instead of emailing it. */

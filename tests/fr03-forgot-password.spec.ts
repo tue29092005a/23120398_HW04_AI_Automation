@@ -102,6 +102,8 @@ test.describe('FR-03 Forgot password – UI requirements', () => {
           await expect(fp.stepIndicator).toContainText(/2\s*\/\s*2/);
           break;
         case 'backToLogin':
+          // Assert first: click() on a missing element burns the whole 30 s test timeout.
+          await expect(fp.backToLogin).toBeVisible();
           await fp.backToLogin.click();
           await expect(page).toHaveURL(/\/login$/);
           break;

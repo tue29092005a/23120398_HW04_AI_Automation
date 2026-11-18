@@ -24,7 +24,6 @@ export default defineConfig({
   outputDir: `test-results/${RUN_NAME}`,
   reporter: [
     ['list'],
-    ['json', { outputFile: `${REPORT_DIR}/results.json` }],
     [
       'html',
       {
@@ -33,6 +32,8 @@ export default defineConfig({
         title: `Run by: ${STUDENT_ID} – ${RUN_AT}`,
       },
     ],
+    // Listed after html: the html reporter wipes its folder when it writes.
+    ['json', { outputFile: `${REPORT_DIR}/results.json` }],
   ],
   metadata: {
     'Run by': STUDENT_ID,
