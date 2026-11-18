@@ -1,4 +1,4 @@
-# HW04 – AI Automation Testing: Main Report
+2026-11-18T04:22:32.548Z HW04 – AI Automation Testing: Main Report
 
 | | |
 |---|---|
@@ -7,7 +7,7 @@
 | Tools | Playwright 1.65 (TypeScript), Playwright HTML reporter, Claude Code (model `claude-opus-5-5`) |
 | Browsers | Chromium, Firefox, WebKit |
 | Source of test cases | HW02 report `23120398_HW02_AI_DomainTesting_100/Main_Report.md` (EP + BVA tables) |
-| Repository | https://github.com/tue29092005a/23120398-HW04-Automation |
+| Repository | https://github.com/tue29092005a/23120398_HW04_AI_Automation |
 
 ## 1. Scope
 

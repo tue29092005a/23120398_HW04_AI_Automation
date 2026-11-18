@@ -20,7 +20,7 @@
     "maxFailures": 0,
     "metadata": {
       "Run by": "23120398",
-      "Timestamp": "2026-11-18T03:36:45.781Z",
+      "Timestamp": "2026-11-18T04:20:20.013Z",
       "Report": "fr16-chromium",
       "actualWorkers": 1
     },
@@ -32,7 +32,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:36:45.781Z",
+          "Timestamp": "2026-11-18T04:20:20.013Z",
           "Report": "fr16-chromium",
           "actualWorkers": 1
         },
@@ -51,7 +51,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:36:45.781Z",
+          "Timestamp": "2026-11-18T04:20:20.013Z",
           "Report": "fr16-chromium",
           "actualWorkers": 1
         },
@@ -70,7 +70,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:36:45.781Z",
+          "Timestamp": "2026-11-18T04:20:20.013Z",
           "Report": "fr16-chromium",
           "actualWorkers": 1
         },
@@ -93,7 +93,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:36:45.781Z",
+          "Timestamp": "2026-11-18T04:20:20.013Z",
           "Report": "fr16-chromium",
           "actualWorkers": 1
         },
@@ -138,7 +138,7 @@
         {
           "outputFolder": "reports/fr16-chromium",
           "open": "never",
-          "title": "Run by: 23120398 – 2026-11-18T03:36:45.781Z"
+          "title": "Run by: 23120398 – 2026-11-18T04:20:20.013Z"
         }
       ],
       [
@@ -190,12 +190,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1101,
+                      "duration": 928,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:36:46.567Z",
+                      "startTime": "2026-11-18T04:20:20.601Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -224,7 +224,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-004: File input has no accept=\".csv\" restriction – https://github.com/NguyenSonTung16/HW02/issues/37"
+                      "description": "BUG-FR16-004: File input has no accept=\".csv\" restriction – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/13"
                     },
                     {
                       "type": "fail",
@@ -244,10 +244,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 7576,
+                      "duration": 7683,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    18 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    18 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:43:41",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:43:41",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
                           "column": 41,
@@ -262,17 +262,17 @@
                             "column": 41,
                             "line": 43
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    18 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n\n  41 |\n  42 |         if (tc.mode === 'accept') {\n> 43 |           await expect(admin.fileInput).toHaveAttribute('accept', new RegExp(ex.accept));\n     |                                         ^\n  44 |           return;\n  45 |         }\n  46 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:43:41"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\nExpected pattern: \u001b[32m/\\.csv/\u001b[39m\nReceived string:  \u001b[31m\"\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-blue-50').filter({ hasText: 'Import sản phẩm từ CSV' }).locator('input[type=\"file\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"file\" class=\"border p-2 rounded bg-white flex-1 text-sm\"/>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n\n  41 |\n  42 |         if (tc.mode === 'accept') {\n> 43 |           await expect(admin.fileInput).toHaveAttribute('accept', new RegExp(ex.accept));\n     |                                         ^\n  44 |           return;\n  45 |         }\n  46 |\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:43:41"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:36:47.835Z",
+                      "startTime": "2026-11-18T04:20:21.798Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-004: File input has no accept=\".csv\" restriction – https://github.com/NguyenSonTung16/HW02/issues/37"
+                          "description": "BUG-FR16-004: File input has no accept=\".csv\" restriction – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/13"
                         },
                         {
                           "type": "fail",
@@ -321,7 +321,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-002: CSV parser splits quoted fields on commas (RFC 4180) – https://github.com/NguyenSonTung16/HW02/issues/35"
+                      "description": "BUG-FR16-002: CSV parser splits quoted fields on commas (RFC 4180) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/11"
                     },
                     {
                       "type": "fail",
@@ -341,7 +341,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1023,
+                      "duration": 992,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"HW04 Gaming Laptop, 16GB RAM\",\u001b[39m\n\u001b[31m+   \"\\\"HW04 Gaming Laptop\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"HW04 Gaming Laptop, 16GB RAM\",\u001b[39m\n\u001b[31m+   \"\\\"HW04 Gaming Laptop\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:68:23",
@@ -365,11 +365,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:36:55.451Z",
+                      "startTime": "2026-11-18T04:20:29.500Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-002: CSV parser splits quoted fields on commas (RFC 4180) – https://github.com/NguyenSonTung16/HW02/issues/35"
+                          "description": "BUG-FR16-002: CSV parser splits quoted fields on commas (RFC 4180) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/11"
                         },
                         {
                           "type": "fail",
@@ -424,12 +424,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1031,
+                      "duration": 866,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:36:56.506Z",
+                      "startTime": "2026-11-18T04:20:30.511Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -458,7 +458,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12"
                     },
                     {
                       "type": "fail",
@@ -478,10 +478,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8001,
+                      "duration": 7889,
                       "error": {
-                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m44\u001b[39m\nReceived: \u001b[31m45\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
-                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m44\u001b[39m\nReceived: \u001b[31m45\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m80\u001b[39m\nReceived: \u001b[31m81\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m80\u001b[39m\nReceived: \u001b[31m81\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
                           "column": 95,
@@ -496,17 +496,17 @@
                             "column": 95,
                             "line": 63
                           },
-                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m44\u001b[39m\nReceived: \u001b[31m45\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m80\u001b[39m\nReceived: \u001b[31m81\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:36:57.552Z",
+                      "startTime": "2026-11-18T04:20:31.390Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12"
                         },
                         {
                           "type": "fail",
@@ -555,7 +555,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-001: CSV import is not atomic (no rollback when a row fails) – https://github.com/NguyenSonTung16/HW02/issues/34"
+                      "description": "BUG-FR16-001: CSV import is not atomic (no rollback when a row fails) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/10"
                     },
                     {
                       "type": "fail",
@@ -575,10 +575,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8017,
+                      "duration": 7912,
                       "error": {
-                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m45\u001b[39m\nReceived: \u001b[31m47\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
-                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m45\u001b[39m\nReceived: \u001b[31m47\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m81\u001b[39m\nReceived: \u001b[31m83\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m81\u001b[39m\nReceived: \u001b[31m83\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
                           "column": 95,
@@ -593,17 +593,17 @@
                             "column": 95,
                             "line": 63
                           },
-                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m45\u001b[39m\nReceived: \u001b[31m47\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m81\u001b[39m\nReceived: \u001b[31m83\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:05.594Z",
+                      "startTime": "2026-11-18T04:20:39.300Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-001: CSV import is not atomic (no rollback when a row fails) – https://github.com/NguyenSonTung16/HW02/issues/34"
+                          "description": "BUG-FR16-001: CSV import is not atomic (no rollback when a row fails) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/10"
                         },
                         {
                           "type": "fail",
@@ -658,12 +658,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 220,
+                      "duration": 142,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:13.656Z",
+                      "startTime": "2026-11-18T04:20:47.233Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -698,12 +698,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 979,
+                      "duration": 865,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:13.898Z",
+                      "startTime": "2026-11-18T04:20:47.392Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -732,7 +732,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12"
                     },
                     {
                       "type": "fail",
@@ -752,10 +752,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8113,
+                      "duration": 6919,
                       "error": {
-                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m47\u001b[39m\nReceived: \u001b[31m48\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
-                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m47\u001b[39m\nReceived: \u001b[31m48\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m83\u001b[39m\nReceived: \u001b[31m84\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m83\u001b[39m\nReceived: \u001b[31m84\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
                           "column": 95,
@@ -770,17 +770,17 @@
                             "column": 95,
                             "line": 63
                           },
-                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m47\u001b[39m\nReceived: \u001b[31m48\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m83\u001b[39m\nReceived: \u001b[31m84\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:14.897Z",
+                      "startTime": "2026-11-18T04:20:48.273Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12"
                         },
                         {
                           "type": "fail",
@@ -829,7 +829,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                      "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12"
                     },
                     {
                       "type": "fail",
@@ -849,10 +849,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8344,
+                      "duration": 6912,
                       "error": {
-                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m48\u001b[39m\nReceived: \u001b[31m49\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
-                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m48\u001b[39m\nReceived: \u001b[31m49\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
+                        "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m84\u001b[39m\nReceived: \u001b[31m85\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate",
+                        "stack": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m84\u001b[39m\nReceived: \u001b[31m85\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts",
                           "column": 95,
@@ -867,17 +867,17 @@
                             "column": 95,
                             "line": 63
                           },
-                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m48\u001b[39m\nReceived: \u001b[31m49\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
+                          "message": "Error: products added\n\nproducts added\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m84\u001b[39m\nReceived: \u001b[31m85\u001b[39m\n\nCall Log:\n- Timeout 7000ms exceeded while waiting on the predicate\n\n  61 |       }\n  62 |\n> 63 |       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(\n     |                                                                                               ^\n  64 |         before.length + ex.inserted,\n  65 |       );\n  66 |       if (ex.names) {\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:63:95"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:23.035Z",
+                      "startTime": "2026-11-18T04:20:55.214Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/NguyenSonTung16/HW02/issues/36"
+                          "description": "BUG-FR16-003: CSV import accepts zero and negative prices – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12"
                         },
                         {
                           "type": "fail",
@@ -932,12 +932,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1237,
+                      "duration": 881,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:31.425Z",
+                      "startTime": "2026-11-18T04:21:02.145Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -972,12 +972,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 672,
+                      "duration": 648,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:32.680Z",
+                      "startTime": "2026-11-18T04:21:03.038Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1012,12 +1012,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 960,
+                      "duration": 861,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:33.368Z",
+                      "startTime": "2026-11-18T04:21:03.699Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1046,7 +1046,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR16-005: Import API accepts any logged-in user token (no admin role check) – NEW in HW04"
+                      "description": "BUG-FR16-005: Import API accepts any logged-in user token (no admin role check) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/14"
                     },
                     {
                       "type": "fail",
@@ -1066,7 +1066,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 259,
+                      "duration": 189,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr16-csv-import.spec.ts:37:30",
@@ -1090,11 +1090,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:34.343Z",
+                      "startTime": "2026-11-18T04:21:04.577Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR16-005: Import API accepts any logged-in user token (no admin role check) – NEW in HW04"
+                          "description": "BUG-FR16-005: Import API accepts any logged-in user token (no admin role check) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/14"
                         },
                         {
                           "type": "fail",
@@ -1149,12 +1149,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1115,
+                      "duration": 837,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:37:34.644Z",
+                      "startTime": "2026-11-18T04:21:04.786Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1180,8 +1180,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-18T03:36:45.790Z",
-    "duration": 50161.778,
+    "startTime": "2026-11-18T04:20:20.016Z",
+    "duration": 45746.212,
     "expected": 15,
     "skipped": 0,
     "unexpected": 0,

@@ -2,26 +2,26 @@
 
 All defects below are detected by **failing assertions** in the automated suite and reproduce on **Chromium, Firefox and WebKit**. Each failing data row is tagged with its bug id (`"bugs": [...]` in `data/*.json`) and runs as `test.fail()`, so the HTML reports list it as an expected failure with the issue link.
 
-Evidence runs: `fr03-chromium` (2026-11-18T03:28:27.518Z), `fr03-firefox` (2026-11-18T03:29:21.371Z), `fr03-webkit` (2026-11-18T03:31:36.551Z), `fr08-chromium` (2026-11-18T03:32:56.392Z), `fr08-firefox` (2026-11-18T03:33:54.478Z), `fr08-webkit` (2026-11-18T03:35:26.402Z), `fr16-chromium` (2026-11-18T03:36:45.790Z), `fr16-firefox` (2026-11-18T03:37:39.196Z), `fr16-webkit` (2026-11-18T03:39:09.041Z).
+Evidence runs: `fr03-chromium` (2026-11-18T04:12:21.893Z), `fr03-firefox` (2026-11-18T04:13:12.594Z), `fr03-webkit` (2026-11-18T04:15:22.423Z), `fr08-chromium` (2026-11-18T04:16:39.254Z), `fr08-firefox` (2026-11-18T04:17:36.195Z), `fr08-webkit` (2026-11-18T04:19:07.271Z), `fr16-chromium` (2026-11-18T04:20:20.016Z), `fr16-firefox` (2026-11-18T04:21:08.306Z), `fr16-webkit` (2026-11-18T04:22:32.548Z).
 
 ## Summary
 
 | Bug ID | Feature | Severity | Title | Failing tests | HW04 issue | HW02 reference |
 |---|---|---|---|---|---|---|
-| BUG-FR03-001 | FR-03 | Critical | Password reset regex rejects valid special characters and requires whitespace | TC01, TC14, TC23, BVA02, BVA03, BVA04, BVA05, BVA06, BVA07 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/25) |
-| BUG-FR03-002 | FR-03 | Critical | OTP generator issues 4-digit tokens instead of 6 digits | BVA09, TC18 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/26) |
-| BUG-FR03-003 | FR-03 | Critical | Backend /api/reset-password does not validate the password policy | TC21 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/27) |
-| BUG-FR03-004 | FR-03 | Medium | Step 2 has no "Confirm New Password" field | TC15 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/28) |
-| BUG-FR03-005 | FR-03 | Low | No step indicator and no "Back to Login" control | TC16, TC17 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/29) |
-| BUG-FR08-001 | FR-08 | Critical | Backend trusts client-supplied total_amount (0, negative, tampered) | TC04, TC05, TC06, BVA05 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/30) |
-| BUG-FR08-002 | FR-08 | Critical | Grand total is an editable number input on the checkout page | TC01, TC04 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/31) |
-| BUG-FR08-003 | FR-08 | High | Guest can open /checkout without logging in | TC02 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/32) |
-| BUG-FR08-004 | FR-08 | Medium | Cart is not cleared after a successful checkout | TC01, TC07 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/33) |
-| BUG-FR16-001 | FR-16 | Critical | CSV import is not atomic – valid rows are kept when another row fails | TC06 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/34) |
-| BUG-FR16-002 | FR-16 | Critical | CSV parser splits quoted fields on commas (RFC 4180) | TC03 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/35) |
-| BUG-FR16-003 | FR-16 | High | CSV import accepts zero and negative prices | TC05, BVA01, BVA02 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/36) |
-| BUG-FR16-004 | FR-16 | Low | File input has no accept=".csv" restriction | TC02 | _pending_ | [HW02](https://github.com/NguyenSonTung16/HW02/issues/37) |
-| BUG-FR16-005 | FR-16 | Critical | Import API accepts any logged-in user token (no admin role check) – NEW in HW04 | TC11 | _pending_ | **new** |
+| BUG-FR03-001 | FR-03 | Critical | Password reset regex rejects valid special characters and requires whitespace | TC01, TC14, TC23, BVA02, BVA03, BVA04, BVA05, BVA06, BVA07 | [#1](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/25) |
+| BUG-FR03-002 | FR-03 | Critical | OTP generator issues 4-digit tokens instead of 6 digits | BVA09, TC18 | [#2](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/2) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/26) |
+| BUG-FR03-003 | FR-03 | Critical | Backend /api/reset-password does not validate the password policy | TC21 | [#3](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/3) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/27) |
+| BUG-FR03-004 | FR-03 | Medium | Step 2 has no "Confirm New Password" field | TC15 | [#4](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/4) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/28) |
+| BUG-FR03-005 | FR-03 | Low | No step indicator and no "Back to Login" control | TC16, TC17 | [#5](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/5) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/29) |
+| BUG-FR08-001 | FR-08 | Critical | Backend trusts client-supplied total_amount (0, negative, tampered) | TC04, TC05, TC06, BVA05 | [#6](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/30) |
+| BUG-FR08-002 | FR-08 | Critical | Grand total is an editable number input on the checkout page | TC01, TC04 | [#7](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/7) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/31) |
+| BUG-FR08-003 | FR-08 | High | Guest can open /checkout without logging in | TC02 | [#8](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/8) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/32) |
+| BUG-FR08-004 | FR-08 | Medium | Cart is not cleared after a successful checkout | TC01, TC07 | [#9](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/9) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/33) |
+| BUG-FR16-001 | FR-16 | Critical | CSV import is not atomic – valid rows are kept when another row fails | TC06 | [#10](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/10) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/34) |
+| BUG-FR16-002 | FR-16 | Critical | CSV parser splits quoted fields on commas (RFC 4180) | TC03 | [#11](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/11) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/35) |
+| BUG-FR16-003 | FR-16 | High | CSV import accepts zero and negative prices | TC05, BVA01, BVA02 | [#12](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/36) |
+| BUG-FR16-004 | FR-16 | Low | File input has no accept=".csv" restriction | TC02 | [#13](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/13) | [HW02](https://github.com/NguyenSonTung16/HW02/issues/37) |
+| BUG-FR16-005 | FR-16 | Critical | Import API accepts any logged-in user token (no admin role check) – NEW in HW04 | TC11 | [#14](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/14) | **new** |
 
 Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
@@ -29,7 +29,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-03 – Frontend Web (ForgotPassword.jsx)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/25)
+- **GitHub issue:** [#1](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/25)
 - **Detected by:** `TC01`, `TC14`, `TC23`, `BVA02`, `BVA03`, `BVA04`, `BVA05`, `BVA06`, `BVA07` in `tests/fr03-*.spec.ts`
 
 **Steps to reproduce**
@@ -52,7 +52,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-03 – Backend API (/api/forgot-password)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/26)
+- **GitHub issue:** [#2](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/2) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/26)
 - **Detected by:** `BVA09`, `TC18` in `tests/fr03-*.spec.ts`
 
 **Steps to reproduce**
@@ -73,7 +73,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-03 – Backend API (/api/reset-password)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/27)
+- **GitHub issue:** [#3](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/3) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/27)
 - **Detected by:** `TC21` in `tests/fr03-*.spec.ts`
 
 **Steps to reproduce**
@@ -93,7 +93,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-03 – Frontend Web (ForgotPassword.jsx)
 - **Severity:** Medium
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/28)
+- **GitHub issue:** [#4](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/4) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/28)
 - **Detected by:** `TC15` in `tests/fr03-*.spec.ts`
 
 **Steps to reproduce**
@@ -115,7 +115,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-03 – Frontend Web (ForgotPassword.jsx)
 - **Severity:** Low
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/29)
+- **GitHub issue:** [#5](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/5) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/29)
 - **Detected by:** `TC16`, `TC17` in `tests/fr03-*.spec.ts`
 
 **Steps to reproduce**
@@ -136,7 +136,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-08 – Backend API (/api/checkout)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/30)
+- **GitHub issue:** [#6](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/30)
 - **Detected by:** `TC04`, `TC05`, `TC06`, `BVA05` in `tests/fr08-*.spec.ts`
 
 **Steps to reproduce**
@@ -158,7 +158,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-08 – Frontend Web (Checkout.jsx)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/31)
+- **GitHub issue:** [#7](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/7) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/31)
 - **Detected by:** `TC01`, `TC04` in `tests/fr08-*.spec.ts`
 
 **Steps to reproduce**
@@ -179,7 +179,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-08 – Frontend Web (routing)
 - **Severity:** High
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/32)
+- **GitHub issue:** [#8](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/8) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/32)
 - **Detected by:** `TC02` in `tests/fr08-*.spec.ts`
 
 **Steps to reproduce**
@@ -200,7 +200,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-08 – Frontend Web (Checkout.jsx)
 - **Severity:** Medium
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/33)
+- **GitHub issue:** [#9](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/9) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/33)
 - **Detected by:** `TC01`, `TC07` in `tests/fr08-*.spec.ts`
 
 **Steps to reproduce**
@@ -222,7 +222,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-16 – Backend API (/api/admin/import-products)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/34)
+- **GitHub issue:** [#10](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/10) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/34)
 - **Detected by:** `TC06` in `tests/fr16-*.spec.ts`
 
 **Steps to reproduce**
@@ -244,7 +244,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-16 – Frontend Admin (CSV parser)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/35)
+- **GitHub issue:** [#11](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/11) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/35)
 - **Detected by:** `TC03` in `tests/fr16-*.spec.ts`
 
 **Steps to reproduce**
@@ -266,7 +266,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-16 – Backend API + Frontend Admin
 - **Severity:** High
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/36)
+- **GitHub issue:** [#12](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/12) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/36)
 - **Detected by:** `TC05`, `BVA01`, `BVA02` in `tests/fr16-*.spec.ts`
 
 **Steps to reproduce**
@@ -288,7 +288,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-16 – Frontend Admin
 - **Severity:** Low
-- **GitHub issue:** _pending_ (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/37)
+- **GitHub issue:** [#13](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/13) (first reported in HW02: https://github.com/NguyenSonTung16/HW02/issues/37)
 - **Detected by:** `TC02` in `tests/fr16-*.spec.ts`
 
 **Steps to reproduce**
@@ -309,7 +309,7 @@ Total: **14** bugs (1 new in HW04). Critical: 8, High: 2, Medium: 2, Low: 2.
 
 - **Feature / component:** FR-16 – Backend API (/api/admin/import-products)
 - **Severity:** Critical
-- **GitHub issue:** _pending_ – new in HW04
+- **GitHub issue:** [#14](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/14) – new in HW04
 - **Detected by:** `TC11` in `tests/fr16-*.spec.ts`
 
 **Steps to reproduce**

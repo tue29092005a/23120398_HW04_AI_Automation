@@ -20,7 +20,7 @@
     "maxFailures": 0,
     "metadata": {
       "Run by": "23120398",
-      "Timestamp": "2026-11-18T03:33:54.472Z",
+      "Timestamp": "2026-11-18T04:17:36.190Z",
       "Report": "fr08-firefox",
       "actualWorkers": 1
     },
@@ -32,7 +32,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:33:54.472Z",
+          "Timestamp": "2026-11-18T04:17:36.190Z",
           "Report": "fr08-firefox",
           "actualWorkers": 1
         },
@@ -51,7 +51,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:33:54.472Z",
+          "Timestamp": "2026-11-18T04:17:36.190Z",
           "Report": "fr08-firefox",
           "actualWorkers": 1
         },
@@ -70,7 +70,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:33:54.472Z",
+          "Timestamp": "2026-11-18T04:17:36.190Z",
           "Report": "fr08-firefox",
           "actualWorkers": 1
         },
@@ -93,7 +93,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:33:54.472Z",
+          "Timestamp": "2026-11-18T04:17:36.190Z",
           "Report": "fr08-firefox",
           "actualWorkers": 1
         },
@@ -138,7 +138,7 @@
         {
           "outputFolder": "reports/fr08-firefox",
           "open": "never",
-          "title": "Run by: 23120398 – 2026-11-18T03:33:54.472Z"
+          "title": "Run by: 23120398 – 2026-11-18T04:17:36.190Z"
         }
       ],
       [
@@ -190,12 +190,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5327,
+                      "duration": 5606,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:33:55.224Z",
+                      "startTime": "2026-11-18T04:17:36.845Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -230,12 +230,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4346,
+                      "duration": 4608,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:01.276Z",
+                      "startTime": "2026-11-18T04:17:43.128Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -270,12 +270,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4322,
+                      "duration": 4769,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:05.642Z",
+                      "startTime": "2026-11-18T04:17:47.755Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -310,12 +310,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4574,
+                      "duration": 4523,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:09.985Z",
+                      "startTime": "2026-11-18T04:17:52.544Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -358,12 +358,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5843,
+                      "duration": 5839,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:14.575Z",
+                      "startTime": "2026-11-18T04:17:57.088Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -398,12 +398,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5759,
+                      "duration": 5424,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:20.435Z",
+                      "startTime": "2026-11-18T04:18:02.947Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -440,11 +440,11 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                      "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/7"
                     },
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                      "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/9"
                     },
                     {
                       "type": "fail",
@@ -464,7 +464,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 20040,
+                      "duration": 19802,
                       "error": {
                         "message": "Error: total must not be editable\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeEditable\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\nExpected: not editable\nReceived: editable\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - total must not be editable getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"number\" value=\"42000000\" class=\"border p-2 rounded text-red-600 font-bold\"/>\u001b[22m\n\u001b[2m       - unexpected value \"editable\"\u001b[22m\n",
                         "stack": "Error: total must not be editable\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeEditable\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\nExpected: not editable\nReceived: editable\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - total must not be editable getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('label').filter({ hasText: 'Tổng tiền thanh toán' }).locator('xpath=following-sibling::input[1]')\u001b[22m\n\u001b[2m    17 × locator resolved to <input type=\"number\" value=\"42000000\" class=\"border p-2 rounded text-red-600 font-bold\"/>\u001b[22m\n\u001b[2m       - unexpected value \"editable\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:69:82",
@@ -496,15 +496,15 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:26.209Z",
+                      "startTime": "2026-11-18T04:18:08.388Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                          "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/7"
                         },
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                          "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/9"
                         },
                         {
                           "type": "fail",
@@ -553,11 +553,11 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                     },
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                      "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/7"
                     },
                     {
                       "type": "fail",
@@ -577,7 +577,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 4464,
+                      "duration": 4532,
                       "error": {
                         "message": "Error: total stored on the server\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
                         "stack": "Error: total stored on the server\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:86:71",
@@ -601,15 +601,15 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:46.280Z",
+                      "startTime": "2026-11-18T04:18:28.213Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                         },
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/NguyenSonTung16/HW02/issues/31"
+                          "description": "BUG-FR08-002: Grand total is an editable number input on checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/7"
                         },
                         {
                           "type": "fail",
@@ -658,7 +658,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                      "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/9"
                     },
                     {
                       "type": "fail",
@@ -678,7 +678,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 11652,
+                      "duration": 11656,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"soft toBeVisible\" getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"soft toBeVisible\" getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('heading', { name: 'Giỏ hàng của bạn đang trống' })\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:91:46",
@@ -702,11 +702,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:34:50.778Z",
+                      "startTime": "2026-11-18T04:18:32.765Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/NguyenSonTung16/HW02/issues/33"
+                          "description": "BUG-FR08-004: Cart is not cleared after successful checkout – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/9"
                         },
                         {
                           "type": "fail",
@@ -761,12 +761,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6252,
+                      "duration": 6282,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:35:02.463Z",
+                      "startTime": "2026-11-18T04:18:44.446Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -803,7 +803,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-003: Guest can open /checkout without logging in – https://github.com/NguyenSonTung16/HW02/issues/32"
+                      "description": "BUG-FR08-003: Guest can open /checkout without logging in – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/8"
                     },
                     {
                       "type": "fail",
@@ -823,7 +823,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 9784,
+                      "duration": 9878,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login$/\u001b[39m\nReceived string:  \u001b[31m\"http://localhost:5173/checkout\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    17 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://localhost:5173/checkout\"\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login$/\u001b[39m\nReceived string:  \u001b[31m\"http://localhost:5173/checkout\"\u001b[39m\nTimeout: 7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 7000ms\u001b[22m\n\u001b[2m    17 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://localhost:5173/checkout\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:106:28",
@@ -847,11 +847,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:35:08.731Z",
+                      "startTime": "2026-11-18T04:18:50.743Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-003: Guest can open /checkout without logging in – https://github.com/NguyenSonTung16/HW02/issues/32"
+                          "description": "BUG-FR08-003: Guest can open /checkout without logging in – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/8"
                         },
                         {
                           "type": "fail",
@@ -906,12 +906,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3457,
+                      "duration": 3201,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:35:18.552Z",
+                      "startTime": "2026-11-18T04:19:00.638Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -948,7 +948,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                     },
                     {
                       "type": "fail",
@@ -968,7 +968,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 40,
+                      "duration": 42,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m60000000\u001b[39m\nReceived: \u001b[31m0\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m60000000\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:139:40",
@@ -992,11 +992,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:35:22.028Z",
+                      "startTime": "2026-11-18T04:19:03.853Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                         },
                         {
                           "type": "fail",
@@ -1040,7 +1040,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                     },
                     {
                       "type": "fail",
@@ -1060,7 +1060,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 39,
+                      "duration": 37,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m-500000\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m30000000\u001b[39m\nReceived: \u001b[31m-500000\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr08-checkout.spec.ts:139:40",
@@ -1084,11 +1084,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:35:22.083Z",
+                      "startTime": "2026-11-18T04:19:03.911Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                         },
                         {
                           "type": "fail",
@@ -1132,7 +1132,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                      "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                     },
                     {
                       "type": "fail",
@@ -1176,11 +1176,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:35:22.134Z",
+                      "startTime": "2026-11-18T04:19:03.960Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/NguyenSonTung16/HW02/issues/30"
+                          "description": "BUG-FR08-001: Backend trusts client-supplied total_amount (no server recalculation) – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/6"
                         },
                         {
                           "type": "fail",
@@ -1221,8 +1221,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-18T03:33:54.478Z",
-    "duration": 88403.213,
+    "startTime": "2026-11-18T04:17:36.195Z",
+    "duration": 88480.264,
     "expected": 15,
     "skipped": 0,
     "unexpected": 0,

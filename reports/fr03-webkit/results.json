@@ -20,7 +20,7 @@
     "maxFailures": 0,
     "metadata": {
       "Run by": "23120398",
-      "Timestamp": "2026-11-18T03:31:36.546Z",
+      "Timestamp": "2026-11-18T04:15:22.419Z",
       "Report": "fr03-webkit",
       "actualWorkers": 1
     },
@@ -32,7 +32,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:31:36.546Z",
+          "Timestamp": "2026-11-18T04:15:22.419Z",
           "Report": "fr03-webkit",
           "actualWorkers": 1
         },
@@ -51,7 +51,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:31:36.546Z",
+          "Timestamp": "2026-11-18T04:15:22.419Z",
           "Report": "fr03-webkit",
           "actualWorkers": 1
         },
@@ -70,7 +70,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:31:36.546Z",
+          "Timestamp": "2026-11-18T04:15:22.419Z",
           "Report": "fr03-webkit",
           "actualWorkers": 1
         },
@@ -93,7 +93,7 @@
         "retries": 0,
         "metadata": {
           "Run by": "23120398",
-          "Timestamp": "2026-11-18T03:31:36.546Z",
+          "Timestamp": "2026-11-18T04:15:22.419Z",
           "Report": "fr03-webkit",
           "actualWorkers": 1
         },
@@ -138,7 +138,7 @@
         {
           "outputFolder": "reports/fr03-webkit",
           "open": "never",
-          "title": "Run by: 23120398 – 2026-11-18T03:31:36.546Z"
+          "title": "Run by: 23120398 – 2026-11-18T04:15:22.419Z"
         }
       ],
       [
@@ -190,12 +190,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1231,
+                      "duration": 935,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:37.273Z",
+                      "startTime": "2026-11-18T04:15:23.101Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -230,12 +230,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4164,
+                      "duration": 4038,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:38.645Z",
+                      "startTime": "2026-11-18T04:15:24.197Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -270,12 +270,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1081,
+                      "duration": 944,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:42.840Z",
+                      "startTime": "2026-11-18T04:15:28.258Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -312,7 +312,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -332,7 +332,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1438,
+                      "duration": 1495,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -356,11 +356,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:43.940Z",
+                      "startTime": "2026-11-18T04:15:29.225Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -415,12 +415,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1537,
+                      "duration": 1349,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:45.418Z",
+                      "startTime": "2026-11-18T04:15:30.748Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -455,12 +455,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4649,
+                      "duration": 4529,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:46.974Z",
+                      "startTime": "2026-11-18T04:15:32.115Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -495,12 +495,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1438,
+                      "duration": 1454,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:51.651Z",
+                      "startTime": "2026-11-18T04:15:36.663Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -535,12 +535,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1451,
+                      "duration": 1570,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:53.115Z",
+                      "startTime": "2026-11-18T04:15:38.133Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -575,12 +575,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1563,
+                      "duration": 1465,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:54.588Z",
+                      "startTime": "2026-11-18T04:15:39.730Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -615,12 +615,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1425,
+                      "duration": 1450,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:56.174Z",
+                      "startTime": "2026-11-18T04:15:41.218Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -655,12 +655,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1587,
+                      "duration": 1481,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:57.620Z",
+                      "startTime": "2026-11-18T04:15:42.692Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -695,12 +695,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1520,
+                      "duration": 1585,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:31:59.229Z",
+                      "startTime": "2026-11-18T04:15:44.195Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -729,7 +729,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -749,7 +749,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1541,
+                      "duration": 1460,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Mật khẩu quá yếu!\"\u001b[39m\nReceived string:    \u001b[31m\"Đổi mật khẩu thành công!\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Mật khẩu quá yếu!\"\u001b[39m\nReceived string:    \u001b[31m\"Đổi mật khẩu thành công!\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -773,11 +773,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:00.771Z",
+                      "startTime": "2026-11-18T04:15:45.800Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -832,12 +832,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1476,
+                      "duration": 1533,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:02.346Z",
+                      "startTime": "2026-11-18T04:15:47.283Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -872,12 +872,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1544,
+                      "duration": 1465,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:03.846Z",
+                      "startTime": "2026-11-18T04:15:48.837Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -906,7 +906,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -926,7 +926,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1506,
+                      "duration": 1462,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -950,11 +950,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:05.411Z",
+                      "startTime": "2026-11-18T04:15:50.320Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1003,7 +1003,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -1023,7 +1023,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1504,
+                      "duration": 1569,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -1047,11 +1047,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:06.961Z",
+                      "startTime": "2026-11-18T04:15:51.804Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1100,7 +1100,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -1120,7 +1120,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1454,
+                      "duration": 1431,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -1144,11 +1144,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:08.504Z",
+                      "startTime": "2026-11-18T04:15:53.395Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1197,7 +1197,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -1217,7 +1217,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1557,
+                      "duration": 1415,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -1241,11 +1241,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:10.000Z",
+                      "startTime": "2026-11-18T04:15:54.848Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1294,7 +1294,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -1314,7 +1314,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1432,
+                      "duration": 1574,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -1338,11 +1338,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:11.603Z",
+                      "startTime": "2026-11-18T04:15:56.286Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1391,7 +1391,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -1411,7 +1411,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1571,
+                      "duration": 1461,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Đổi mật khẩu thành công!\"\u001b[39m\nReceived string:    \u001b[31m\"Mật khẩu quá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:63:30",
@@ -1435,11 +1435,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:13.079Z",
+                      "startTime": "2026-11-18T04:15:57.888Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1494,12 +1494,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1529,
+                      "duration": 1417,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:14.688Z",
+                      "startTime": "2026-11-18T04:15:59.369Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1534,12 +1534,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1643,
+                      "duration": 1328,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:16.240Z",
+                      "startTime": "2026-11-18T04:16:00.803Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1568,7 +1568,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                      "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                     },
                     {
                       "type": "fail",
@@ -1588,7 +1588,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 7300,
+                      "duration": 7465,
                       "error": {
                         "message": "Error: password \"Reset@2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m",
                         "stack": "Error: password \"Reset@2026\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mĐổi m\u001b[27mật khẩu \u001b[7mthành công!\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mM\u001b[27mật khẩu \u001b[7mquá yếu! Phải dài tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và KÝ TỰ ĐẶC BIỆT.\u001b[27m\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:83:53",
@@ -1660,11 +1660,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:17.903Z",
+                      "startTime": "2026-11-18T04:16:02.150Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/NguyenSonTung16/HW02/issues/25"
+                          "description": "BUG-FR03-001: Password reset regex rejects valid special characters and requires whitespace – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/1"
                         },
                         {
                           "type": "fail",
@@ -1721,7 +1721,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-004: Missing Confirm New Password field in step 2 – https://github.com/NguyenSonTung16/HW02/issues/28"
+                      "description": "BUG-FR03-004: Missing Confirm New Password field in step 2 – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/4"
                     },
                     {
                       "type": "fail",
@@ -1741,7 +1741,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8133,
+                      "duration": 8281,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('input[type=\"password\"]')\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" getByRole('main').locator('input[type=\"password\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to 1 element\u001b[22m\n\u001b[2m       - unexpected value \"1\"\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('main').locator('input[type=\"password\"]')\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  7000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" getByRole('main').locator('input[type=\"password\"]') with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    17 × locator resolved to 1 element\u001b[22m\n\u001b[2m       - unexpected value \"1\"\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:103:43",
@@ -1765,11 +1765,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:25.244Z",
+                      "startTime": "2026-11-18T04:16:09.633Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-004: Missing Confirm New Password field in step 2 – https://github.com/NguyenSonTung16/HW02/issues/28"
+                          "description": "BUG-FR03-004: Missing Confirm New Password field in step 2 – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/4"
                         },
                         {
                           "type": "fail",
@@ -1818,7 +1818,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                      "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/5"
                     },
                     {
                       "type": "fail",
@@ -1838,7 +1838,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 7743,
+                      "duration": 7737,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\nExpected pattern: \u001b[32m/1\\s*\\/\\s*2/\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\nExpected pattern: \u001b[32m/1\\s*\\/\\s*2/\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByText(/(Step|Bước)\\s*[12]\\s*\\/\\s*2/i)\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:96:40",
@@ -1862,11 +1862,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:33.416Z",
+                      "startTime": "2026-11-18T04:16:17.933Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                          "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/5"
                         },
                         {
                           "type": "fail",
@@ -1915,7 +1915,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                      "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/5"
                     },
                     {
                       "type": "fail",
@@ -1935,7 +1935,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8265,
+                      "duration": 8216,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('main').getByRole('link', { name: /login|đăng nhập/i }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('main').getByRole('link', { name: /login|đăng nhập/i }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByRole('link', { name: /login|đăng nhập/i })\u001b[22m\n\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:110:40",
@@ -1959,11 +1959,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:41.204Z",
+                      "startTime": "2026-11-18T04:16:25.692Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/NguyenSonTung16/HW02/issues/29"
+                          "description": "BUG-FR03-005: Missing step indicator and Back to Login control – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/5"
                         },
                         {
                           "type": "fail",
@@ -2018,12 +2018,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1427,
+                      "duration": 1126,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:49.514Z",
+                      "startTime": "2026-11-18T04:16:33.931Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -2052,7 +2052,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                      "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/2"
                     },
                     {
                       "type": "fail",
@@ -2072,10 +2072,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1213,
+                      "duration": 982,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2105\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2105\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:118:40",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6634\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6634\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:118:40",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
                           "column": 40,
@@ -2090,17 +2090,17 @@
                             "column": 40,
                             "line": 118
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2105\"\u001b[39m\n\n  116 |           break;\n  117 |         case 'otpWidth':\n> 118 |           expect(await fp.issuedOtp()).toMatch(/^\\d{6}$/);\n      |                                        ^\n  119 |           break;\n  120 |       }\n  121 |     });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:118:40"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6634\"\u001b[39m\n\n  116 |           break;\n  117 |         case 'otpWidth':\n> 118 |           expect(await fp.issuedOtp()).toMatch(/^\\d{6}$/);\n      |                                        ^\n  119 |           break;\n  120 |       }\n  121 |     });\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:118:40"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:50.959Z",
+                      "startTime": "2026-11-18T04:16:35.075Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                          "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/2"
                         },
                         {
                           "type": "fail",
@@ -2163,12 +2163,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 63,
+                      "duration": 52,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:52.212Z",
+                      "startTime": "2026-11-18T04:16:36.077Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2191,7 +2191,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                      "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/2"
                     },
                     {
                       "type": "fail",
@@ -2215,10 +2215,10 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 196,
+                      "duration": 185,
                       "error": {
-                        "message": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6822\"\u001b[39m",
-                        "stack": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6822\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50",
+                        "message": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3317\"\u001b[39m",
+                        "stack": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3317\"\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50",
                         "location": {
                           "file": "D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts",
                           "column": 50,
@@ -2233,7 +2233,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6822\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3317\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2241,7 +2241,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #2\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4387\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #2\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4245\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2249,7 +2249,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #3\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5776\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #3\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7285\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2257,7 +2257,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #4\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9102\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #4\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7424\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2265,7 +2265,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #5\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6982\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #5\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2465\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2273,7 +2273,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3091\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9242\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2281,7 +2281,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #7\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5557\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #7\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6846\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2289,7 +2289,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #8\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5962\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #8\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5870\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2297,7 +2297,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #9\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6356\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #9\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5241\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2305,7 +2305,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #10\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"6084\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #10\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"8495\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2313,7 +2313,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #11\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2586\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #11\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9894\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2321,7 +2321,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #12\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2525\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #12\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3013\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2329,7 +2329,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #13\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7235\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #13\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"3235\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2337,7 +2337,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #14\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4676\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #14\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4460\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2345,7 +2345,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #15\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7384\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #15\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7589\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2353,7 +2353,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #16\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4963\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #16\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7656\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2361,7 +2361,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #17\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"8075\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #17\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"5499\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2369,7 +2369,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #18\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2103\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #18\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"2763\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2377,7 +2377,7 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #19\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"7759\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #19\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9957\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         },
                         {
                           "location": {
@@ -2385,17 +2385,17 @@
                             "column": 50,
                             "line": 153
                           },
-                          "message": "Error: sample #20\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"9556\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
+                          "message": "Error: sample #20\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^\\d{6}$/\u001b[39m\nReceived string:  \u001b[31m\"4694\"\u001b[39m\n\n  151 |             const otp = await requestOtp(request, user.email);\n  152 |             widths.add(otp.length);\n> 153 |             expect.soft(otp, `sample #${i + 1}`).toMatch(/^\\d{6}$/);\n      |                                                  ^\n  154 |           }\n  155 |           test.info().annotations.push({ type: 'observed widths', description: [...widths].join(',') });\n  156 |           break;\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:153:50"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:52.286Z",
+                      "startTime": "2026-11-18T04:16:36.138Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/NguyenSonTung16/HW02/issues/26"
+                          "description": "BUG-FR03-002: OTP generator issues 4-digit tokens instead of 6 digits – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/2"
                         },
                         {
                           "type": "fail",
@@ -2449,12 +2449,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 42,
+                      "duration": 33,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:52.494Z",
+                      "startTime": "2026-11-18T04:16:36.334Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2483,12 +2483,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 64,
+                      "duration": 33,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:52.552Z",
+                      "startTime": "2026-11-18T04:16:36.375Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2511,7 +2511,7 @@
                   "annotations": [
                     {
                       "type": "issue",
-                      "description": "BUG-FR03-003: Backend /api/reset-password does not validate password policy – https://github.com/NguyenSonTung16/HW02/issues/27"
+                      "description": "BUG-FR03-003: Backend /api/reset-password does not validate password policy – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/3"
                     },
                     {
                       "type": "fail",
@@ -2531,7 +2531,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 39,
+                      "duration": 30,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at D:\\CNTT\\2026-2027\\KTPM\\23120398_HW04_AI_Automation_090\\tests\\fr03-forgot-password.spec.ts:174:32",
@@ -2555,11 +2555,11 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-18T03:32:52.629Z",
+                      "startTime": "2026-11-18T04:16:36.419Z",
                       "annotations": [
                         {
                           "type": "issue",
-                          "description": "BUG-FR03-003: Backend /api/reset-password does not validate password policy – https://github.com/NguyenSonTung16/HW02/issues/27"
+                          "description": "BUG-FR03-003: Backend /api/reset-password does not validate password policy – https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues/3"
                         },
                         {
                           "type": "fail",
@@ -2600,8 +2600,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-18T03:31:36.551Z",
-    "duration": 76285.255,
+    "startTime": "2026-11-18T04:15:22.423Z",
+    "duration": 74132.289,
     "expected": 34,
     "skipped": 0,
     "unexpected": 0,
