@@ -1,3 +1,23 @@
+commit 3d8988d08fb03e9eaf1b449b13bae0dbe04aa71b
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 11:58:44 2026 +0700
+
+    docs: add video folder and repository links
+
+ Links.txt                  |   8 ++
+ README.md                  |   4 +-
+ docs/AI_Interaction_Log.md | 322 +++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 332 insertions(+), 2 deletions(-)
+
+commit e2bedc05114a969f9ed16bb1cdc5996353f0b638
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 11:24:49 2026 +0700
+
+    docs: update Git_Commit_Log.txt
+
+ Git_Commit_Log.txt | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+
 commit 171d34137b6f9640c6b08534792a60d840fc735d
 Author: 23120398 <vothanhminhtuea@gmail.com>
 Date:   Wed Nov 18 11:24:48 2026 +0700
