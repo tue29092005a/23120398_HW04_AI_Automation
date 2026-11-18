@@ -1,4 +1,4 @@
-import { test, expect, API } from '../fixtures/test-fixtures';
+import { test, expect, API, createUser, loginWithToken } from '../fixtures/test-fixtures';
 import { HomePage, CartPage, CheckoutPage } from '../pages/ShopPages';
 import data from '../data/fr08-checkout.json';
 
@@ -65,14 +65,18 @@ test.describe('FR-08 Checkout – end-to-end flows', () => {
 
 test.describe('FR-08 Checkout – access rules', () => {
   for (const tc of data.access) {
-    test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ page, userPage }) => {
+    // Only `page` here: requesting `userPage` would log the "guest" in too.
+    test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ page, request }) => {
       if (tc.scenario === 'guestCheckout') {
-        await page.context().clearCookies();
-        await page.evaluate(() => localStorage.clear());
         await page.goto('/checkout');
+        // Precondition: really a guest (header offers "Đăng nhập").
+        await expect(page.getByRole('banner').getByRole('link', { name: 'Đăng nhập' })).toBeVisible();
         await expect(page).toHaveURL(/\/login$/);
+        await expect(new CheckoutPage(page).confirmButton).toHaveCount(0);
       } else {
-        const cart = new CartPage(userPage);
+        const user = await createUser(request, test.info().project.name);
+        await loginWithToken(page, user.token);
+        const cart = new CartPage(page);
         await cart.open();
         await expect(cart.emptyMessage).toBeVisible();
         await expect(cart.checkoutButton).toHaveCount(0);

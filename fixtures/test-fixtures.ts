@@ -27,6 +27,18 @@ export async function createUser(
   return { id: body.user.id, email, password, token: body.token };
 }
 
+/**
+ * Logs the web app in by seeding localStorage once (no addInitScript, so a
+ * test can still log out / clear storage afterwards), then waits until
+ * AuthContext has loaded /api/users/me and the header shows "Thoát".
+ */
+export async function loginWithToken(page: Page, token: string) {
+  await page.goto('/');
+  await page.evaluate((t) => window.localStorage.setItem('token', t), token);
+  await page.reload();
+  await expect(page.getByRole('button', { name: 'Thoát' })).toBeVisible();
+}
+
 export async function apiLogin(request: APIRequestContext, email: string, password: string) {
   return request.post(`${API}/login`, { data: { email, password } });
 }
@@ -105,10 +117,7 @@ export const test = base.extend<Fixtures>({
     await use(await createUser(request, testInfo.project.name));
   },
   userPage: async ({ page, user }, use) => {
-    await page.addInitScript((t) => window.localStorage.setItem('token', t), user.token);
-    await page.goto('/');
-    // AuthContext loads /api/users/me before the header switches to "Thoát".
-    await expect(page.getByRole('button', { name: 'Thoát' })).toBeVisible();
+    await loginWithToken(page, user.token);
     await use(page);
   },
   adminToken: async ({ request }, use) => {
