@@ -4,3 +4,4 @@ test-results/
 blob-report/
 .cache/
 *.log
+run-all.log
