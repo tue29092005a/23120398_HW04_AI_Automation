@@ -1,0 +1,8 @@
+GitHub repository (scripts, data files, HTML reports):
+https://github.com/tue29092005a/23120398_HW04_AI_Automation
+
+GitHub Issues (14 bugs, with screenshots):
+https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues
+
+Demo videos (file 23120398_video.txt with the 2 unlisted YouTube links):
+https://drive.google.com/drive/u/0/folders/1EA1pYIfy3w42u1Amd6RiNFM56GPzIByv

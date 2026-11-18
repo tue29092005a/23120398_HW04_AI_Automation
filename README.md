@@ -13,8 +13,8 @@ with one Playwright HTML report per feature × browser (title **"Run by: 2312039
 | Git commit log | [Git_Commit_Log.txt](Git_Commit_Log.txt) |
 | HTML reports (9 runs) | [reports/](reports/) – summary in [reports/SUMMARY.md](reports/SUMMARY.md) |
 | Agent Skill | [.claude/skills/playwright-ddt/SKILL.md](.claude/skills/playwright-ddt/SKILL.md) |
-| Demo video (Task 2) | _YouTube link – TODO_ |
-| Agent Skill demo video | _YouTube link – TODO_ |
+| Demo video (Task 2) + Agent Skill demo video | Google Drive folder: https://drive.google.com/drive/u/0/folders/1EA1pYIfy3w42u1Amd6RiNFM56GPzIByv – file `23120398_video.txt` contains the 2 unlisted YouTube links |
+| GitHub repository | https://github.com/tue29092005a/23120398_HW04_AI_Automation ([Issues #1–#14](https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues)) |
 
 ## Self-assessment
 
