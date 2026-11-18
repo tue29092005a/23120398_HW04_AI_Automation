@@ -2,46 +2,284 @@
   "feature": "FR-08 Checkout",
   "source": "HW02 Main_Report.md – Tables 3A, 3B, 4 (FR-08)",
   "products": {
-    "iphone": { "id": 1, "name": "iPhone 15 Pro Max", "price": 30000000 },
-    "airpods": { "id": 4, "name": "Tai nghe AirPods Pro 2", "price": 6000000 }
+    "iphone": {
+      "id": 1,
+      "name": "iPhone 15 Pro Max",
+      "price": 30000000
+    },
+    "airpods": {
+      "id": 4,
+      "name": "Tai nghe AirPods Pro 2",
+      "price": 6000000
+    }
   },
   "cartTotals": [
-    { "id": "BVA01", "technique": "BVA", "partition": "qty LB = 1", "title": "quantity 1 gives total 30,000,000", "items": [{ "product": "iphone", "qty": 1 }], "expectTotal": "30,000,000 ₫" },
-    { "id": "BVA02", "technique": "BVA", "partition": "qty LB+1 = 2", "title": "quantity 2 gives total 60,000,000", "items": [{ "product": "iphone", "qty": 2 }], "expectTotal": "60,000,000 ₫" },
-    { "id": "BVA03", "technique": "BVA", "partition": "qty nominal = 5", "title": "quantity 5 gives total 150,000,000", "items": [{ "product": "iphone", "qty": 5 }], "expectTotal": "150,000,000 ₫" },
-    { "id": "BVA04", "technique": "BVA", "partition": "qty large = 99", "title": "quantity 99 gives total 2,970,000,000", "items": [{ "product": "iphone", "qty": 99 }], "expectTotal": "2,970,000,000 ₫" }
+    {
+      "id": "BVA01",
+      "technique": "BVA",
+      "partition": "qty LB = 1",
+      "title": "quantity 1 gives total 30,000,000",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 1
+        }
+      ],
+      "expectTotal": "30,000,000 ₫"
+    },
+    {
+      "id": "BVA02",
+      "technique": "BVA",
+      "partition": "qty LB+1 = 2",
+      "title": "quantity 2 gives total 60,000,000",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 2
+        }
+      ],
+      "expectTotal": "60,000,000 ₫"
+    },
+    {
+      "id": "BVA03",
+      "technique": "BVA",
+      "partition": "qty nominal = 5",
+      "title": "quantity 5 gives total 150,000,000",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 5
+        }
+      ],
+      "expectTotal": "150,000,000 ₫"
+    },
+    {
+      "id": "BVA04",
+      "technique": "BVA",
+      "partition": "qty large = 99",
+      "title": "quantity 99 gives total 2,970,000,000",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 99
+        }
+      ],
+      "expectTotal": "2,970,000,000 ₫"
+    }
   ],
   "checkoutFlows": [
     {
-      "id": "TC01", "technique": "EP", "partition": "EC01, EC03, EC05, EC07, EC09",
+      "id": "TC01",
+      "technique": "EP",
+      "partition": "EC01, EC03, EC05, EC07, EC09",
       "title": "logged-in checkout: correct total, read-only total, order saved, cart cleared",
-      "items": [{ "product": "iphone", "qty": 1 }, { "product": "airpods", "qty": 2 }],
-      "expect": { "cartTotal": "42,000,000 ₫", "totalReadOnly": true, "serverTotal": 42000000, "cartCleared": true },
-      "bugs": ["BUG-FR08-002", "BUG-FR08-004"]
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 1
+        },
+        {
+          "product": "airpods",
+          "qty": 2
+        }
+      ],
+      "expect": {
+        "cartTotal": "42,000,000 ₫",
+        "totalReadOnly": true,
+        "serverTotal": 42000000,
+        "cartCleared": true
+      },
+      "bugs": [
+        "BUG-FR08-002",
+        "BUG-FR08-004"
+      ]
     },
     {
-      "id": "TC04", "technique": "EP", "partition": "EC06, EC08",
+      "id": "TC04",
+      "technique": "EP",
+      "partition": "EC06, EC08",
       "title": "editing the total on the checkout page cannot change the charged amount",
-      "items": [{ "product": "iphone", "qty": 1 }],
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 1
+        }
+      ],
       "tamperTotal": 1,
-      "expect": { "serverTotal": 30000000 },
-      "bugs": ["BUG-FR08-001", "BUG-FR08-002"]
+      "expect": {
+        "serverTotal": 30000000
+      },
+      "bugs": [
+        "BUG-FR08-001",
+        "BUG-FR08-002"
+      ]
     },
     {
-      "id": "TC07", "technique": "EP", "partition": "EC09",
+      "id": "TC07",
+      "technique": "EP",
+      "partition": "EC09",
       "title": "cart is empty after a successful checkout",
-      "items": [{ "product": "airpods", "qty": 1 }],
-      "expect": { "cartCleared": true },
-      "bugs": ["BUG-FR08-004"]
+      "items": [
+        {
+          "product": "airpods",
+          "qty": 1
+        }
+      ],
+      "expect": {
+        "cartCleared": true
+      },
+      "bugs": [
+        "BUG-FR08-004"
+      ]
+    },
+    {
+      "id": "TC10",
+      "technique": "EP",
+      "partition": "EC01, EC07 (order history)",
+      "title": "a completed checkout appears in the user order history as pending",
+      "note": "HW04 addition",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 1
+        },
+        {
+          "product": "airpods",
+          "qty": 1
+        }
+      ],
+      "expect": {
+        "cartTotal": "36,000,000 ₫",
+        "serverTotal": 36000000,
+        "serverStatus": "pending"
+      }
     }
   ],
   "access": [
-    { "id": "TC02", "technique": "EP", "partition": "EC02", "title": "guest opening /checkout is redirected to /login", "scenario": "guestCheckout", "bugs": ["BUG-FR08-003"] },
-    { "id": "TC03", "technique": "EP", "partition": "EC04", "title": "empty cart shows empty state and no checkout button", "scenario": "emptyCart" }
+    {
+      "id": "TC02",
+      "technique": "EP",
+      "partition": "EC02",
+      "title": "guest opening /checkout is redirected to /login",
+      "scenario": "guestCheckout",
+      "bugs": [
+        "BUG-FR08-003"
+      ]
+    },
+    {
+      "id": "TC03",
+      "technique": "EP",
+      "partition": "EC04",
+      "title": "empty cart shows empty state and no checkout button",
+      "scenario": "emptyCart"
+    }
   ],
   "apiTampering": [
-    { "id": "TC05", "technique": "EP", "partition": "EC08 (zero)", "title": "API rejects or recalculates total_amount = 0", "items": [{ "product": "iphone", "qty": 2 }], "total_amount": 0, "expectServerTotal": 60000000, "bugs": ["BUG-FR08-001"] },
-    { "id": "TC06", "technique": "EP", "partition": "EC08 (negative)", "title": "API rejects or recalculates total_amount = -500000", "items": [{ "product": "iphone", "qty": 1 }], "total_amount": -500000, "expectServerTotal": 30000000, "bugs": ["BUG-FR08-001"] },
-    { "id": "BVA05", "technique": "BVA", "partition": "qty LB-1 = 0", "title": "API rejects an order line with quantity 0", "items": [{ "product": "iphone", "qty": 0 }], "total_amount": 0, "expectServerTotal": null, "bugs": ["BUG-FR08-001"] }
+    {
+      "id": "TC05",
+      "technique": "EP",
+      "partition": "EC08 (zero)",
+      "title": "API rejects or recalculates total_amount = 0",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 2
+        }
+      ],
+      "total_amount": 0,
+      "expectServerTotal": 60000000,
+      "bugs": [
+        "BUG-FR08-001"
+      ]
+    },
+    {
+      "id": "TC06",
+      "technique": "EP",
+      "partition": "EC08 (negative)",
+      "title": "API rejects or recalculates total_amount = -500000",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 1
+        }
+      ],
+      "total_amount": -500000,
+      "expectServerTotal": 30000000,
+      "bugs": [
+        "BUG-FR08-001"
+      ]
+    },
+    {
+      "id": "BVA05",
+      "technique": "BVA",
+      "partition": "qty LB-1 = 0",
+      "title": "API rejects an order line with quantity 0",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 0
+        }
+      ],
+      "total_amount": 0,
+      "expectServerTotal": null,
+      "bugs": [
+        "BUG-FR08-001"
+      ]
+    }
+  ],
+  "cartEdits": [
+    {
+      "id": "TC08",
+      "technique": "EP",
+      "partition": "EC03 (multi-line cart)",
+      "title": "each cart line shows price x quantity and the total sums all lines",
+      "note": "HW04 addition. Plan asked for \"change quantity in cart\" but Cart.jsx has no quantity control, so quantity is set on the product page.",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 2
+        },
+        {
+          "product": "airpods",
+          "qty": 1
+        }
+      ],
+      "expectRows": [
+        {
+          "product": "iphone",
+          "subtotal": "60,000,000 ₫"
+        },
+        {
+          "product": "airpods",
+          "subtotal": "6,000,000 ₫"
+        }
+      ],
+      "expectTotal": "66,000,000 ₫"
+    },
+    {
+      "id": "TC09",
+      "technique": "EP",
+      "partition": "EC03 (remove line)",
+      "title": "removing a line updates the cart total",
+      "note": "HW04 addition",
+      "items": [
+        {
+          "product": "iphone",
+          "qty": 1
+        },
+        {
+          "product": "airpods",
+          "qty": 3
+        }
+      ],
+      "remove": "airpods",
+      "expectRows": [
+        {
+          "product": "iphone",
+          "subtotal": "30,000,000 ₫"
+        }
+      ],
+      "expectTotal": "30,000,000 ₫"
+    }
   ]
 }

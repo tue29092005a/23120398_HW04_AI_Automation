@@ -23,6 +23,31 @@ test.describe('FR-08 Checkout – cart total (BVA on quantity)', () => {
   }
 });
 
+test.describe('FR-08 Checkout – cart contents before checkout (HW04 additions)', () => {
+  for (const tc of data.cartEdits) {
+    test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ userPage: page }) => {
+      const home = new HomePage(page);
+      const cart = new CartPage(page);
+      await fillCart(home, tc.items);
+      await cart.open();
+      await expect(cart.rows).toHaveCount(tc.items.length);
+
+      if (tc.remove) {
+        const before = await cart.total.textContent();
+        await cart.remove(products[tc.remove].name);
+        await expect(cart.total).not.toHaveText(before!);
+      }
+
+      await expect(cart.rows).toHaveCount(tc.expectRows.length);
+      for (const row of tc.expectRows) {
+        // last-but-one cell = "Thành tiền" (line subtotal)
+        await expect(cart.row(products[row.product].name).locator('td').nth(3)).toHaveText(row.subtotal);
+      }
+      await expect(cart.total).toHaveText(tc.expectTotal);
+    });
+  }
+});
+
 test.describe('FR-08 Checkout – end-to-end flows', () => {
   for (const tc of data.checkoutFlows) {
     test(`${tc.id} [${tc.technique}] ${tc.title}`, async ({ userPage: page, request, user }) => {
@@ -48,12 +73,15 @@ test.describe('FR-08 Checkout – end-to-end flows', () => {
       await expect(checkout.successHeading).toBeVisible();
 
       if (tc.expect.serverTotal !== undefined) {
-        const res = await request.get(`${API}/orders/my-orders`, {
-          headers: { Authorization: `Bearer ${user.token}` },
-        });
-        const orders = await res.json();
-        expect(orders).toHaveLength(1);
-        expect.soft(orders[0].total_amount, 'total stored on the server').toBe(tc.expect.serverTotal);
+        const myOrders = async () =>
+          (await request.get(`${API}/orders/my-orders`, {
+            headers: { Authorization: `Bearer ${user.token}` },
+          })).json();
+        // The order is written asynchronously; poll the API instead of sleeping.
+        await expect.poll(async () => (await myOrders()).length).toBe(1);
+        const [order] = await myOrders();
+        expect.soft(order.total_amount, 'total stored on the server').toBe(tc.expect.serverTotal);
+        if (tc.expect.serverStatus) expect.soft(order.status).toBe(tc.expect.serverStatus);
       }
       if (tc.expect.cartCleared) {
         await cart.open();
