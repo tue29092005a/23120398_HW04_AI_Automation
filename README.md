@@ -1,4 +1,4 @@
-2026-11-18T04:22:32.548Z 23120398 – HW04 AI Automation Testing (EShop SUT)
+# 23120398 – HW04 AI Automation Testing (EShop SUT)
 
 Data-driven Playwright (TypeScript) automation of three EShop web features, generated step by
 step with Claude Code, reviewed and fixed by me, executed on **Chromium, Firefox and WebKit**
@@ -40,15 +40,15 @@ Per run (from `reports/SUMMARY.md`):
 
 | Run | Report title (ISO timestamp) | Executed | Passed | Known bug | Unexpected |
 |---|---|---:|---:|---:|---:|
-| [fr03-chromium](reports/fr03-chromium/index.html) | Run by: 23120398 – 2026-11-18T03:28:27.518Z | 34 | 19 | 15 | 0 |
-| [fr03-firefox](reports/fr03-firefox/index.html) | Run by: 23120398 – 2026-11-18T03:29:21.371Z | 34 | 19 | 15 | 0 |
-| [fr03-webkit](reports/fr03-webkit/index.html) | Run by: 23120398 – 2026-11-18T03:31:36.551Z | 34 | 19 | 15 | 0 |
-| [fr08-chromium](reports/fr08-chromium/index.html) | Run by: 23120398 – 2026-11-18T03:32:56.392Z | 15 | 8 | 7 | 0 |
-| [fr08-firefox](reports/fr08-firefox/index.html) | Run by: 23120398 – 2026-11-18T03:33:54.478Z | 15 | 8 | 7 | 0 |
-| [fr08-webkit](reports/fr08-webkit/index.html) | Run by: 23120398 – 2026-11-18T03:35:26.402Z | 15 | 8 | 7 | 0 |
-| [fr16-chromium](reports/fr16-chromium/index.html) | Run by: 23120398 – 2026-11-18T03:36:45.790Z | 15 | 8 | 7 | 0 |
-| [fr16-firefox](reports/fr16-firefox/index.html) | Run by: 23120398 – 2026-11-18T03:37:39.196Z | 15 | 8 | 7 | 0 |
-| [fr16-webkit](reports/fr16-webkit/index.html) | Run by: 23120398 – 2026-11-18T03:39:09.041Z | 15 | 8 | 7 | 0 |
+| [fr03-chromium](reports/fr03-chromium/index.html) | Run by: 23120398 – 2026-11-18T04:12:21.893Z | 34 | 19 | 15 | 0 |
+| [fr03-firefox](reports/fr03-firefox/index.html) | Run by: 23120398 – 2026-11-18T04:13:12.594Z | 34 | 19 | 15 | 0 |
+| [fr03-webkit](reports/fr03-webkit/index.html) | Run by: 23120398 – 2026-11-18T04:15:22.423Z | 34 | 19 | 15 | 0 |
+| [fr08-chromium](reports/fr08-chromium/index.html) | Run by: 23120398 – 2026-11-18T04:16:39.254Z | 15 | 8 | 7 | 0 |
+| [fr08-firefox](reports/fr08-firefox/index.html) | Run by: 23120398 – 2026-11-18T04:17:36.195Z | 15 | 8 | 7 | 0 |
+| [fr08-webkit](reports/fr08-webkit/index.html) | Run by: 23120398 – 2026-11-18T04:19:07.271Z | 15 | 8 | 7 | 0 |
+| [fr16-chromium](reports/fr16-chromium/index.html) | Run by: 23120398 – 2026-11-18T04:20:20.016Z | 15 | 8 | 7 | 0 |
+| [fr16-firefox](reports/fr16-firefox/index.html) | Run by: 23120398 – 2026-11-18T04:21:08.306Z | 15 | 8 | 7 | 0 |
+| [fr16-webkit](reports/fr16-webkit/index.html) | Run by: 23120398 – 2026-11-18T04:22:32.548Z | 15 | 8 | 7 | 0 |
 
 Every row expected to fail fails on the assertion that matches its bug in all three browsers; no unexpected failures and no flaky tests (WebKit FR-08 also checked with `--repeat-each=4`: 60/60).
 
