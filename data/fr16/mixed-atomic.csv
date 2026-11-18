@@ -1,0 +1,4 @@
+name,price,description,imageUrl,category_id
+HW04 Atomic A,100000,valid,https://placehold.co/300,3
+HW04 Atomic B,200000,valid,https://placehold.co/300,3
+,300000,invalid - no name,https://placehold.co/300,3
