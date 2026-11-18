@@ -1,3 +1,22 @@
+commit 171d34137b6f9640c6b08534792a60d840fc735d
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 11:24:48 2026 +0700
+
+    docs: link GitHub issues page in main report
+
+ Main_Report.md  |   2 +-
+ Main_Report.pdf | Bin 108871 -> 109607 bytes
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit e54f6e2e36dc0c696f97c4c2d5f470c31b4aa819
+Author: 23120398 <vothanhminhtuea@gmail.com>
+Date:   Wed Nov 18 11:24:37 2026 +0700
+
+    docs: update Git_Commit_Log.txt
+
+ Git_Commit_Log.txt | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
 commit da1eee2af57cdc6db28ab8919a079d9dfba10448
 Author: 23120398 <vothanhminhtuea@gmail.com>
 Date:   Wed Nov 18 11:24:36 2026 +0700
