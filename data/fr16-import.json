@@ -3,27 +3,229 @@
   "source": "HW02 Main_Report.md – Tables 3A, 3B, 4 (FR-16)",
   "note": "Manifest: each row points at a real CSV fixture in data/fr16/ and holds the expected outcome. 'inserted' is the expected change in the product count read through GET /api/products.",
   "cases": [
-    { "id": "TC01", "technique": "EP", "partition": "EC01, EC03, EC06, EC08", "title": "valid CSV with 2 rows imports 2 products", "mode": "ui", "file": "valid.csv",
-      "expect": { "preview": 2, "message": "Import hoàn tất: 2/2 sản phẩm được thêm", "inserted": 2, "names": ["HW04 Wireless Mouse", "HW04 Mechanical Keyboard"] } },
-    { "id": "TC02", "technique": "EP", "partition": "EC02", "title": "file picker only accepts .csv files", "mode": "accept", "file": "invalid-ext.txt",
-      "expect": { "accept": "\\.csv" }, "bugs": ["BUG-FR16-004"] },
-    { "id": "TC03", "technique": "EP", "partition": "EC05", "title": "quoted field containing a comma is kept as one value (RFC 4180)", "mode": "ui", "file": "quoted-comma.csv",
-      "expect": { "inserted": 1, "names": ["HW04 Gaming Laptop, 16GB RAM"] }, "bugs": ["BUG-FR16-002"] },
-    { "id": "TC04", "technique": "EP", "partition": "EC07", "title": "row with empty name is rejected with an error", "mode": "ui", "file": "empty-name.csv",
-      "expect": { "message": "Import hoàn tất: 0/1 sản phẩm được thêm", "errors": ["Hàng 2: Thiếu tên sản phẩm"], "inserted": 0 } },
-    { "id": "TC05", "technique": "EP", "partition": "EC09 (zero)", "title": "row with price 0 is rejected", "mode": "ui", "file": "price-zero.csv",
-      "expect": { "inserted": 0 }, "bugs": ["BUG-FR16-003"] },
-    { "id": "TC06", "technique": "EP", "partition": "EC10", "title": "one invalid row rolls back the whole file (0 inserted)", "mode": "ui", "file": "mixed-atomic.csv",
-      "expect": { "inserted": 0 }, "bugs": ["BUG-FR16-001"] },
-    { "id": "TC07", "technique": "EP", "partition": "access (no token)", "title": "import API without a token returns 401", "mode": "api", "auth": "none", "file": "valid.csv",
-      "expect": { "status": 401, "inserted": 0 } },
-    { "id": "TC08", "technique": "EP", "partition": "EC04", "title": "wrong header columns are rejected", "mode": "ui", "file": "wrong-header.csv",
-      "expect": { "errors": ["Hàng 2: Thiếu tên sản phẩm"], "inserted": 0 } },
-    { "id": "BVA01", "technique": "BVA", "partition": "price LB-1 (< 0)", "title": "negative price -10000 is rejected", "mode": "ui", "file": "price-negative.csv",
-      "expect": { "inserted": 0 }, "bugs": ["BUG-FR16-003"] },
-    { "id": "BVA02", "technique": "BVA", "partition": "price LB (= 0)", "title": "price exactly 0 is rejected", "mode": "ui", "file": "price-zero.csv",
-      "expect": { "inserted": 0 }, "bugs": ["BUG-FR16-003"] },
-    { "id": "BVA03", "technique": "BVA", "partition": "price LB+1 (> 0)", "title": "smallest positive price 0.01 is accepted", "mode": "ui", "file": "price-min.csv",
-      "expect": { "message": "Import hoàn tất: 1/1 sản phẩm được thêm", "inserted": 1, "names": ["HW04 Cheapest Item"] } }
+    {
+      "id": "TC01",
+      "technique": "EP",
+      "partition": "EC01, EC03, EC06, EC08",
+      "title": "valid CSV with 2 rows imports 2 products",
+      "mode": "ui",
+      "file": "valid.csv",
+      "expect": {
+        "preview": 2,
+        "message": "Import hoàn tất: 2/2 sản phẩm được thêm",
+        "inserted": 2,
+        "names": [
+          "HW04 Wireless Mouse",
+          "HW04 Mechanical Keyboard"
+        ]
+      }
+    },
+    {
+      "id": "TC02",
+      "technique": "EP",
+      "partition": "EC02",
+      "title": "file picker only accepts .csv files",
+      "mode": "accept",
+      "file": "invalid-ext.txt",
+      "expect": {
+        "accept": "\\.csv"
+      },
+      "bugs": [
+        "BUG-FR16-004"
+      ]
+    },
+    {
+      "id": "TC03",
+      "technique": "EP",
+      "partition": "EC05",
+      "title": "quoted field containing a comma is kept as one value (RFC 4180)",
+      "mode": "ui",
+      "file": "quoted-comma.csv",
+      "expect": {
+        "inserted": 1,
+        "names": [
+          "HW04 Gaming Laptop, 16GB RAM"
+        ]
+      },
+      "bugs": [
+        "BUG-FR16-002"
+      ]
+    },
+    {
+      "id": "TC04",
+      "technique": "EP",
+      "partition": "EC07",
+      "title": "row with empty name is rejected with an error",
+      "mode": "ui",
+      "file": "empty-name.csv",
+      "expect": {
+        "message": "Import hoàn tất: 0/1 sản phẩm được thêm",
+        "errors": [
+          "Hàng 2: Thiếu tên sản phẩm"
+        ],
+        "inserted": 0
+      }
+    },
+    {
+      "id": "TC05",
+      "technique": "EP",
+      "partition": "EC09 (zero)",
+      "title": "row with price 0 is rejected",
+      "mode": "ui",
+      "file": "price-zero.csv",
+      "expect": {
+        "inserted": 0
+      },
+      "bugs": [
+        "BUG-FR16-003"
+      ]
+    },
+    {
+      "id": "TC06",
+      "technique": "EP",
+      "partition": "EC10",
+      "title": "one invalid row rolls back the whole file (0 inserted)",
+      "mode": "ui",
+      "file": "mixed-atomic.csv",
+      "expect": {
+        "inserted": 0
+      },
+      "bugs": [
+        "BUG-FR16-001"
+      ]
+    },
+    {
+      "id": "TC07",
+      "technique": "EP",
+      "partition": "access (no token)",
+      "title": "import API without a token returns 401",
+      "mode": "api",
+      "auth": "none",
+      "file": "valid.csv",
+      "expect": {
+        "status": 401,
+        "inserted": 0
+      }
+    },
+    {
+      "id": "TC08",
+      "technique": "EP",
+      "partition": "EC04",
+      "title": "wrong header columns are rejected",
+      "mode": "ui",
+      "file": "wrong-header.csv",
+      "expect": {
+        "errors": [
+          "Hàng 2: Thiếu tên sản phẩm"
+        ],
+        "inserted": 0
+      }
+    },
+    {
+      "id": "BVA01",
+      "technique": "BVA",
+      "partition": "price LB-1 (< 0)",
+      "title": "negative price -10000 is rejected",
+      "mode": "ui",
+      "file": "price-negative.csv",
+      "expect": {
+        "inserted": 0
+      },
+      "bugs": [
+        "BUG-FR16-003"
+      ]
+    },
+    {
+      "id": "BVA02",
+      "technique": "BVA",
+      "partition": "price LB (= 0)",
+      "title": "price exactly 0 is rejected",
+      "mode": "ui",
+      "file": "price-zero.csv",
+      "expect": {
+        "inserted": 0
+      },
+      "bugs": [
+        "BUG-FR16-003"
+      ]
+    },
+    {
+      "id": "BVA03",
+      "technique": "BVA",
+      "partition": "price LB+1 (> 0)",
+      "title": "smallest positive price 0.01 is accepted",
+      "mode": "ui",
+      "file": "price-min.csv",
+      "expect": {
+        "message": "Import hoàn tất: 1/1 sản phẩm được thêm",
+        "inserted": 1,
+        "names": [
+          "HW04 Cheapest Item"
+        ]
+      }
+    },
+    {
+      "id": "TC09",
+      "technique": "EP",
+      "partition": "EC03 (header only, 0 data rows)",
+      "title": "header-only file cannot be imported and adds nothing",
+      "note": "HW04 addition",
+      "mode": "noRows",
+      "file": "header-only.csv",
+      "expect": {
+        "buttonText": "Import 0 sản phẩm",
+        "inserted": 0
+      }
+    },
+    {
+      "id": "TC10",
+      "technique": "EP",
+      "partition": "EC07 (whitespace-only name)",
+      "title": "name made only of spaces is rejected",
+      "note": "HW04 addition",
+      "mode": "ui",
+      "file": "whitespace-name.csv",
+      "expect": {
+        "message": "Import hoàn tất: 0/1 sản phẩm được thêm",
+        "errors": [
+          "Hàng 2: Thiếu tên sản phẩm"
+        ],
+        "inserted": 0
+      }
+    },
+    {
+      "id": "TC11",
+      "technique": "EP",
+      "partition": "access (role = user)",
+      "title": "import API with a non-admin user token returns 403",
+      "note": "HW04 addition – found while reading server.js: route only checks that a token exists",
+      "mode": "api",
+      "auth": "user",
+      "file": "valid.csv",
+      "expect": {
+        "status": 403,
+        "inserted": 0
+      },
+      "bugs": [
+        "BUG-FR16-005"
+      ]
+    },
+    {
+      "id": "TC12",
+      "technique": "EP",
+      "partition": "EC06, EC08 (post-condition)",
+      "title": "imported product is listed in the admin product table",
+      "note": "HW04 addition",
+      "mode": "ui",
+      "file": "visible-product.csv",
+      "expect": {
+        "message": "Import hoàn tất: 1/1 sản phẩm được thêm",
+        "inserted": 1,
+        "names": [
+          "HW04 Visible In Admin List"
+        ],
+        "listed": "HW04 Visible In Admin List"
+      }
+    }
   ]
 }

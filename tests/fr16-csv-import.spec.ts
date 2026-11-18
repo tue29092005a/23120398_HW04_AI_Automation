@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { test, expect, API } from '../fixtures/test-fixtures';
+import { test, expect, API, createUser } from '../fixtures/test-fixtures';
 import { AdminImportPage } from '../pages/AdminImportPage';
 import manifest from '../data/fr16-import.json';
 
@@ -24,7 +24,13 @@ test.describe('FR-16 Admin – import products from CSV', () => {
       const ex = tc.expect as Record<string, any>;
 
       if (tc.mode === 'api') {
+        const headers: Record<string, string> = {};
+        if (tc.auth === 'user') {
+          const user = await createUser(request, `${test.info().project.name}-fr16`);
+          headers.Authorization = `Bearer ${user.token}`;
+        }
         const res = await request.post(`${API}/admin/import-products`, {
+          headers,
           data: { products: csvRows(tc.file) },
         });
         expect(res.status()).toBe(ex.status);
@@ -38,11 +44,19 @@ test.describe('FR-16 Admin – import products from CSV', () => {
         }
 
         await admin.upload(path.join(FIXTURES, tc.file));
-        if (ex.preview) await expect(admin.preview).toHaveText(`Xem trước (${ex.preview} dòng):`);
-        await admin.submit();
-
-        if (ex.message) await expect(admin.result).toContainText(ex.message);
-        for (const e of ex.errors ?? []) await expect(admin.resultErrors).toContainText([e]);
+        if (tc.mode === 'noRows') {
+          await expect(admin.importButton).toHaveText(ex.buttonText);
+          await expect(admin.importButton).toBeDisabled();
+          await expect(admin.preview).toHaveCount(0);
+        } else {
+          if (ex.preview) await expect(admin.preview).toHaveText(`Xem trước (${ex.preview} dòng):`);
+          await admin.submit();
+          if (ex.message) await expect(admin.result).toContainText(ex.message);
+          for (const e of ex.errors ?? []) await expect(admin.resultErrors).toContainText([e]);
+          if (ex.listed) {
+            await expect(admin.productTable.getByRole('row').filter({ hasText: ex.listed }).last()).toBeVisible();
+          }
+        }
       }
 
       await expect.poll(async () => (await products()).length, { message: 'products added' }).toBe(
