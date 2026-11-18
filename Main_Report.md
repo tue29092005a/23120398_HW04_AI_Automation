@@ -142,7 +142,7 @@ a defect that blocks reaching other code paths – #5, #8).
 ## 8. Bugs
 
 14 defects confirmed by failing assertions (13 from HW02 re-confirmed on 3 browsers + 1 new).
-Details, reproduction steps and screenshots: `Bug_Report.md`; GitHub issues: see `docs/created-issues.json`.
+Details, reproduction steps and screenshots: `Bug_Report.md`; GitHub issues: https://github.com/tue29092005a/23120398_HW04_AI_Automation/issues (#1–#14, one per bug, each with the HTML-report and SUT screenshots; mapping in `docs/created-issues.json`).
 
 ## 9. Agent Skill
 
