@@ -1,0 +1,15 @@
+{
+  "BUG-FR03-001": { "title": "Password reset regex rejects valid special characters and requires whitespace", "issue": "https://github.com/NguyenSonTung16/HW02/issues/25" },
+  "BUG-FR03-002": { "title": "OTP generator issues 4-digit tokens instead of 6 digits", "issue": "https://github.com/NguyenSonTung16/HW02/issues/26" },
+  "BUG-FR03-003": { "title": "Backend /api/reset-password does not validate password policy", "issue": "https://github.com/NguyenSonTung16/HW02/issues/27" },
+  "BUG-FR03-004": { "title": "Missing Confirm New Password field in step 2", "issue": "https://github.com/NguyenSonTung16/HW02/issues/28" },
+  "BUG-FR03-005": { "title": "Missing step indicator and Back to Login control", "issue": "https://github.com/NguyenSonTung16/HW02/issues/29" },
+  "BUG-FR08-001": { "title": "Backend trusts client-supplied total_amount (no server recalculation)", "issue": "https://github.com/NguyenSonTung16/HW02/issues/30" },
+  "BUG-FR08-002": { "title": "Grand total is an editable number input on checkout", "issue": "https://github.com/NguyenSonTung16/HW02/issues/31" },
+  "BUG-FR08-003": { "title": "Guest can open /checkout without logging in", "issue": "https://github.com/NguyenSonTung16/HW02/issues/32" },
+  "BUG-FR08-004": { "title": "Cart is not cleared after successful checkout", "issue": "https://github.com/NguyenSonTung16/HW02/issues/33" },
+  "BUG-FR16-001": { "title": "CSV import is not atomic (no rollback when a row fails)", "issue": "https://github.com/NguyenSonTung16/HW02/issues/34" },
+  "BUG-FR16-002": { "title": "CSV parser splits quoted fields on commas (RFC 4180)", "issue": "https://github.com/NguyenSonTung16/HW02/issues/35" },
+  "BUG-FR16-003": { "title": "CSV import accepts zero and negative prices", "issue": "https://github.com/NguyenSonTung16/HW02/issues/36" },
+  "BUG-FR16-004": { "title": "File input has no accept=\".csv\" restriction", "issue": "https://github.com/NguyenSonTung16/HW02/issues/37" }
+}

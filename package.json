@@ -1,0 +1,23 @@
+{
+  "name": "23120398-hw04-automation",
+  "version": "1.0.0",
+  "description": "HW04 AI Automation Testing – EShop SUT (Playwright, data-driven, 3 browsers)",
+  "scripts": {
+    "test": "playwright test",
+    "test:fr03": "playwright test tests/fr03-",
+    "test:fr08": "playwright test tests/fr08-",
+    "test:fr16": "playwright test tests/fr16-",
+    "run-all": "bash scripts/run-all.sh",
+    "report": "node scripts/summarize-reports.mjs"
+  },
+  "keywords": [],
+  "author": "23120398",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "marked": "^18.2.1",
+    "typescript": "^7.0.2"
+  }
+}
